@@ -16,12 +16,8 @@ replication
 
 simulated function Destroyed()
 {
-	if (Trail !=None)
-		Trail.mRegen= False;
-
-	if (TrailB != None)
-		TrailB.mRegen = False;
-
+    if (Trail !=None) Trail.mRegen=False;
+    if (TrailB != None) TrailB.mRegen = False;
 	Super.Destroyed();
 }
 

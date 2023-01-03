@@ -2,40 +2,40 @@ class PistolFire extends tk_ClassicSniperFire;
 
 function InitEffects()
 {
-	Super(InstantFire).InitEffects();
-	if (FlashEmitter != None)
+    Super(InstantFire).InitEffects();
+    if ( FlashEmitter != None )
 		Weapon.AttachToBone(FlashEmitter, 'tip');
 }
 
 function FlashMuzzleFlash()
 {
-	local rotator r;
+    local rotator r;
 
-	r.Yaw = 0;
-	Weapon.SetBoneRotation('tip', r, 0, 1.f);
-	Super.FlashMuzzleFlash();
+    r.Yaw = 0;
+    Weapon.SetBoneRotation('tip', r, 0, 1.f);
+    Super.FlashMuzzleFlash();
 }
 
 function StartBerserk()
 {
-	DamageMin = default.DamageMin * 1.33;
-	DamageMax = default.DamageMax * 1.33;
+    DamageMin = default.DamageMin * 1.33;
+    DamageMax = default.DamageMax * 1.33;
 }
 
 function StopBerserk()
 {
-	DamageMin = default.DamageMin;
-	DamageMax = default.DamageMax;
+    DamageMin = default.DamageMin;
+    DamageMax = default.DamageMax;
 }
 
 function StartSuperBerserk()
 {
-	FireRate = default.FireRate * 1.5/Level.GRI.WeaponBerserk;
-	FireAnimRate = default.FireAnimRate * 0.667 * Level.GRI.WeaponBerserk;
-	DamageMin = default.DamageMin * 1.5;
-	DamageMax = default.DamageMax * 1.5;
-	if (Pistol(Weapon) != None && Pistol(Weapon).bDualMode)
-		FireRate *= 0.55;
+    FireRate = default.FireRate * 1.5/Level.GRI.WeaponBerserk;
+    FireAnimRate = default.FireAnimRate * 0.667 * Level.GRI.WeaponBerserk;
+    DamageMin = default.DamageMin * 1.5;
+    DamageMax = default.DamageMax * 1.5;
+    if (Pistol(Weapon) != None && Pistol(Weapon).bDualMode)
+    	FireRate *= 0.55;
 }
 
 defaultproperties

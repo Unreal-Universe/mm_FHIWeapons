@@ -139,7 +139,7 @@ simulated function Timer()
 	local float ForceMag;
 	local int i;
 
-	Velocity = default.Speed * Normal(Dir * 0.5 * default.Speed + Velocity);  
+	Velocity = default.Speed * Normal(Dir * 0.5 * default.Speed + Velocity);
 	for(i = 0; i < 2; i++)
 	{			
 		if (Flock[i] == None)

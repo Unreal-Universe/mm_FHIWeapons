@@ -1,8 +1,7 @@
 class FlareFire extends tk_ProjectileFire;
 
 function PlayFireEnd()
-{
-}
+{}
 
 function InitEffects()
 {

@@ -1,3 +1,6 @@
+//-----------------------------------------------------------
+//
+//-----------------------------------------------------------
 class SC_ProjectileAltEffects extends SC_Projectile;
 
 simulated event PreBeginPlay()

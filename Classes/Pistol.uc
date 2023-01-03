@@ -1,16 +1,118 @@
-class Pistol extends tk_AssaultRifle
-    config(TKWeaponsClient);
+class Pistol extends tk_Weapon
+	config(TKWeaponsClient);
 
-var PistolAttachment PistolHandActor;
+var float DualPickupTime;
+var PistolAttachment OffhandActor;
+var bool bDualMode;
+var bool bWasDualMode;
+var bool bFireLeft;
+
+replication
+{
+	reliable if (Role == ROLE_Authority)
+		bDualMode;
+}
+
+simulated function bool WeaponCentered()
+{
+	return !bDualMode && Super.WeaponCentered();
+}
+
+simulated event RenderOverlays( Canvas Canvas )
+{
+	local bool bRealHidden;
+	local int RealHand;
+
+    if (Instigator == None)
+        return;
+
+	if ( Instigator.Controller != None )
+		Hand = Instigator.Controller.Handedness;
+
+    if ((Hand < -1.0) || (Hand > 1.0))
+        return;
+
+    RealHand = Hand;
+    if ( bDualMode && (Hand == 0) )
+    {
+		Instigator.Controller.Handedness = -1;
+		Hand = -1;
+	}
+
+    if ( bDualMode && (FireMode[1].FlashEmitter != None) )
+    {
+		bRealHidden = FireMode[1].FlashEmitter.bHidden;
+		if ( bFireLeft )
+			FireMode[1].FlashEmitter.bHidden = true;
+		Super.RenderOverlays(Canvas);
+		FireMode[1].FlashEmitter.bHidden = bRealHidden;
+	}
+	else
+		Super.RenderOverlays(Canvas);
+
+	if ( bDualMode )
+		RenderDualOverlay(Canvas);
+	if ( Instigator.Controller != None )
+		Instigator.Controller.Handedness = RealHand;
+}
+
+simulated function RenderDualOverlay(Canvas Canvas)
+{
+	local vector NewScale3D;
+	local rotator WeaponRotation;
+	local bool bRealHidden;
+
+	Hand *= -1;
+	newScale3D = Default.DrawScale3D;
+	newScale3D.Y *= Hand;
+	SetDrawScale3D(newScale3D);
+	PlayerViewPivot.Roll = Default.PlayerViewPivot.Roll * Hand;
+	PlayerViewPivot.Yaw = Default.PlayerViewPivot.Yaw * Hand;
+	RenderedHand = Hand;
+
+	if ( class'PlayerController'.Default.bSmallWeapons )
+		PlayerViewOffset = SmallViewOffset;
+	else
+		PlayerViewOffset = Default.PlayerViewOffset;
+
+	PlayerViewOffset.Y *= Hand;
+
+    SetLocation( Instigator.Location + Instigator.CalcDrawOffset(self) );
+    WeaponRotation = Instigator.GetViewRotation();
+
+    if ( bDualMode != bWasDualMode )
+    {
+		bWasDualMode = true;
+		DualPickupTime = Level.Timeseconds;
+	}
+    if ( DualPickupTime > Level.TimeSeconds - 0.5 )
+		WeaponRotation.Pitch = WeaponRotation.Pitch - 16384 - 32768 * (DualPickupTime - Level.TimeSeconds);
+
+    SetRotation( WeaponRotation );
+
+    bDrawingFirstPerson = true;
+    if ( bDualMode && (FireMode[1].FlashEmitter != None) )
+    {
+		bRealHidden = FireMode[1].FlashEmitter.bHidden;
+		if ( !bFireLeft )
+			FireMode[1].FlashEmitter.bHidden = true;
+	    Canvas.DrawActor(self, false, false, DisplayFOV);
+		FireMode[1].FlashEmitter.bHidden = bRealHidden;
+	}
+	else
+	   Canvas.DrawActor(self, false, false, DisplayFOV);
+    bDrawingFirstPerson = false;
+    Hand *= -1;
+}
 
 simulated function DetachFromPawn(Pawn P)
 {
 	bFireLeft = false;
 	Super.DetachFromPawn(P);
-	if (PistolHandActor != None)
+	if ( OffhandActor != None )
 	{
-		PistolHandActor.Destroy();
-		PistolHandActor = None;
+		OffhandActor.Destroy();
+		OffhandActor = None;
 	}
 }
 
@@ -18,72 +120,181 @@ function AttachToPawn(Pawn P)
 {
 	local name BoneName;
 
-	if (ThirdPersonActor == None)
+	if ( ThirdPersonActor == None )
 	{
-		ThirdPersonActor = Spawn(AttachmentClass, Owner);
+		ThirdPersonActor = Spawn(AttachmentClass,Owner);
 		InventoryAttachment(ThirdPersonActor).InitFor(self);
 	}
-
 	BoneName = P.GetWeaponBoneFor(self);
-	if (BoneName == '')
+	if ( BoneName == '' )
 	{
 		ThirdPersonActor.SetLocation(P.Location);
 		ThirdPersonActor.SetBase(P);
 	}
 	else
-	{
-		P.AttachToBone(ThirdPersonActor, BoneName);
-	}
+		P.AttachToBone(ThirdPersonActor,BoneName);
 
-	if (bDualMode)
+	if ( bDualMode )
 	{
 		BoneName = P.GetOffHandBoneFor(self);
-		if (BoneName == '')
+		if ( BoneName == '' )
 			return;
-
-		if (PistolHandActor == None)
+		if ( OffhandActor == None )
 		{
-			PistolHandActor = PistolAttachment(Spawn(AttachmentClass, Owner));
-			PistolHandActor.InitFor(self);
+			OffhandActor = PistolAttachment(Spawn(AttachmentClass,Owner));
+			OffhandActor.InitFor(self);
 		}
-
-		P.AttachToBone(PistolHandActor, BoneName);
-		if (PistolHandActor.AttachmentBone == '')
-		{
-			PistolHandActor.Destroy();
-		}
+		P.AttachToBone(OffhandActor,BoneName);
+		if ( OffhandActor.AttachmentBone == '' )
+			OffhandActor.Destroy();
 		else
 		{
 			ThirdPersonActor.SetDrawScale(0.6);
-			PistolHandActor.SetDrawScale(0.6);
-			PistolHandActor.bDualGun = true;
-			PistolHandActor.TwinGun = PistolAttachment(ThirdPersonActor);
+			OffhandActor.SetDrawScale(0.6);
+			OffhandActor.bDualGun = true;
+			OffhandActor.TwinGun = PistolAttachment(ThirdPersonActor);
 
-			if (Mesh == OldMesh)
+			if ( Mesh == OldMesh )
 			{
-			    PistolHandActor.SetRelativeRotation(rot(0, 32768, 0));
-			    PistolHandActor.SetRelativeLocation(vect(20, -10, -5));
+			    OffhandActor.SetRelativeRotation(rot(0,32768,0));
+			    OffhandActor.SetRelativeLocation(vect(20,-10,-5));
 			}
 			else
 			{
-			    PistolHandActor.SetRelativeRotation(rot(0, 32768, 0));
-			    PistolHandActor.SetRelativeLocation(vect(10, -2, -6));
+			    OffhandActor.SetRelativeRotation(rot(0,32768,0));
+			    OffhandActor.SetRelativeLocation(vect(10,-2,-6));
 			}
 
-			PistolAttachment(ThirdPersonActor).TwinGun = PistolHandActor;
+			PistolAttachment(ThirdPersonActor).TwinGun = OffhandActor;
 		}
 	}
 }
 
+function bool HandlePickupQuery( pickup Item )
+{
+	if ( class == Item.InventoryType )
+    {
+		if ( bDualMode )
+			return super.HandlePickupQuery(Item);
+		bDualMode = true;
+		if ( Instigator.Weapon == self )
+		{
+			PlayOwnedSound(SelectSound, SLOT_Interact,,,,, false);
+			AttachToPawn(Instigator);
+		}
+		if (Level.GRI.WeaponBerserk > 1.0)
+			CheckSuperBerserk();
+		else
+			FireMode[0].FireRate = FireMode[0].Default.FireRate *  0.55;
+
+		FireMode[0].Spread = FireMode[0].Default.Spread * 1.5;
+		if (xPawn(Instigator) != None && xPawn(Instigator).bBerserk)
+			StartBerserk();
+
+		return false;
+    }
+
+	if ( item.inventorytype == AmmoClass[0] )
+	{
+		if ( (AmmoCharge[1] >= MaxAmmo(1)) && (AmmoCharge[0] >= MaxAmmo(0)) )
+			return true;
+		item.AnnouncePickup(Pawn(Owner));
+		AddAmmo(50, 0);
+		AddAmmo(Ammo(item).AmmoAmount, 1);
+		item.SetRespawn();
+		return true;
+	}
+
+    if ( Inventory == None )
+		return false;
+
+	return Inventory.HandlePickupQuery(Item);
+}
+
+simulated function int MaxAmmo(int mode)
+{
+	if ( bDualMode )
+		return 2 * FireMode[mode].AmmoClass.Default.MaxAmmo;
+	else
+		return FireMode[mode].AmmoClass.Default.MaxAmmo;
+}
+
+// AI Interface
 function float SuggestAttackStyle()
 {
-	return 0.4;
+    return 0.4;
 }
 
 function float SuggestDefenseStyle()
 {
-	return 0.2;
+    return 0.2;
 }
+
+/* BestMode()
+choose between regular or alt-fire
+*/
+function byte BestMode()
+{
+	local Bot B;
+
+	B = Bot(Instigator.Controller);
+	if ( (B != None) && (B.Enemy != None) )
+	{
+	    if ( ((FRand() < 0.1) || !B.EnemyVisible()) && (AmmoAmount(1) >= FireMode[1].AmmoPerFire) )
+		    return 1;
+	}
+    if ( AmmoAmount(0) >= FireMode[0].AmmoPerFire )
+		return 0;
+	return 1;
+}
+
+function float GetAIRating()
+{
+	local Bot B;
+	local float ZDiff, dist, Result;
+
+	B = Bot(Instigator.Controller);
+	if ( B == None )
+		return AIRating;
+	if ( B.IsShootingObjective() )
+		return AIRating - 0.15;
+	if ( B.Enemy == None )
+		return AIRating;
+
+	if ( B.Stopped() )
+		result = AIRating + 0.1;
+	else
+		result = AIRating - 0.1;
+	if ( Vehicle(B.Enemy) != None )
+		result -= 0.2;
+	ZDiff = Instigator.Location.Z - B.Enemy.Location.Z;
+	if ( ZDiff < -200 )
+		result += 0.1;
+	dist = VSize(B.Enemy.Location - Instigator.Location);
+	if ( dist > 2000 )
+	{
+		if ( !B.EnemyVisible() )
+			result = result - 0.15;
+		return ( FMin(2.0,result + (dist - 2000) * 0.0002) );
+	}
+	if ( !B.EnemyVisible() )
+		return AIRating - 0.1;
+
+	return result;
+}
+
+
+function bool RecommendRangedAttack()
+{
+	local Bot B;
+
+	B = Bot(Instigator.Controller);
+	if ( (B == None) || (B.Enemy == None) )
+		return true;
+
+	return ( VSize(B.Enemy.Location - Instigator.Location) > 2000 * (1 + FRand()) );
+}
+// end AI Interface
 
 defaultproperties
 {

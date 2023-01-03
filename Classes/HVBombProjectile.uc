@@ -30,12 +30,12 @@ simulated function PostBeginPlay()
 	if (Role == ROLE_Authority)
 	{
 		Velocity = Speed * Vector(Rotation);
-		RandSpin(25000);    
+		RandSpin(25000);
 		bCanHitOwner = false;
 		if (Instigator.HeadVolume.bWaterVolume)
 		{
 			bHitWater = true;
-			Velocity = 0.6*Velocity;            
+			Velocity = 0.6*Velocity;
 		}
 	}
 

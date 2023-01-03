@@ -1,20 +1,20 @@
 class TurboLaser extends tk_Weapon
 	config(TKWeaponsClient);
 
-var TurboLaserProjectile TLComboTarget;
-var bool bRegisterTLTarget;
-var bool bWaitForTLCombo;
-var vector TLComboStart;
+var TurboLaserProjectile	TLComboTarget;	// Used by AI for combos
+var bool			bRegisterTLTarget;
+var bool			bWaitForTLCombo;
+var vector			TLComboStart;
 
 simulated function vector GetEffectStart()
 {
 	local Coords C;
 
-	if ( Instigator.IsFirstPerson() )
-	{
+    if ( Instigator.IsFirstPerson() )
+    {
 		if ( WeaponCentered() )
 			return CenteredEffectStart();
-		C = GetBoneCoords('tip');
+	    C = GetBoneCoords('tip');
 		return C.Origin - 15 * C.XAxis;
 	}
 	return Super.GetEffectStart();

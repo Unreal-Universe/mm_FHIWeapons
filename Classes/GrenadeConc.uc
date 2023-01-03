@@ -1,11 +1,11 @@
 class GrenadeConc extends Projectile;
 
-var() vector ShakeRotMag;           // how far to rot view
-var() vector ShakeRotRate;          // how fast to rot view
-var() float  ShakeRotTime;          // how much time to rot the instigator's view
-var() vector ShakeOffsetMag;        // max view offset vertically
-var() vector ShakeOffsetRate;       // how fast to offset view vertically
-var() float  ShakeOffsetTime;       // how much time to offset view
+var() vector ShakeRotMag;	// how far to rot view
+var() vector ShakeRotRate;	// how fast to rot view
+var() float  ShakeRotTime;	// how much time to rot the instigator's view
+var() vector ShakeOffsetMag;	// max view offset vertically
+var() vector ShakeOffsetRate;	// how fast to offset view vertically
+var() float  ShakeOffsetTime;	// how much time to offset view
 
 var float ExplodeTimer, LastSparkTime;
 var bool bTimerSet, bExploded, bCanHitOwner, bHitWater;
@@ -44,7 +44,7 @@ simulated function PostBeginPlay()
 	if (Role == ROLE_Authority)
 	{
 		Velocity = Speed * Vector(Rotation);
-		RandSpin(25000);    
+		RandSpin(25000);
 	}
 
 	if (Instigator != None)

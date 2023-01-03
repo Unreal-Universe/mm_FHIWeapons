@@ -2,10 +2,19 @@ class RailgunAltFire extends tk_ProjectileFire;
 
 function InitEffects()
 {
-	Super.InitEffects();
-	if (FlashEmitter != None)
+    Super.InitEffects();
+    if ( FlashEmitter != None )
 		Weapon.AttachToBone(FlashEmitter, 'tip');
 }
+
+/*
+function InitEffects()
+{
+    Super.InitEffects();
+    if ( FlashEmitter == None )
+		FlashEmitter = Weapon.FireMode[0].FlashEmitter;
+}
+*/
 
 defaultproperties
 {

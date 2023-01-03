@@ -1,3 +1,6 @@
+//-----------------------------------------------------------
+//
+//-----------------------------------------------------------
 class SingularityCannon_AltEffects extends SingularityCannon;
 
 defaultproperties

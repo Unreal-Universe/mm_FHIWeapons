@@ -248,7 +248,7 @@ function BlowUp(Vector HitLocation)
         DamageRadius = DamageRadius * GoopVolume;
         MomentumTransfer = MomentumTransfer * GoopVolume;
         if (Physics == PHYS_Flying) MomentumTransfer *= 0.5;
-        DelayedHurtRadius(Damage, DamageRadius, MyDamageType, MomentumTransfer, HitLocation);   
+        DelayedHurtRadius(Damage, DamageRadius, MyDamageType, MomentumTransfer, HitLocation);
     }
 
     PlaySound(ExplodeSound, SLOT_Misc);

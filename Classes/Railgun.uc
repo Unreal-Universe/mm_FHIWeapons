@@ -1,11 +1,14 @@
 class Railgun extends tk_Weapon
-	config(TKWeaponsClient);
+    config(TKWeaponsClient);
 
 simulated function bool WeaponCentered()
 {
-	return (bSpectated || (Hand > 1) || (Hand == 0));
+	return ( bSpectated || (Hand > 1) || (Hand == 0) );
 }
 
+/* BestMode()
+choose between regular or alt-fire
+*/
 function byte BestMode()
 {
 	local vector EnemyDir;
@@ -33,15 +36,15 @@ function byte BestMode()
 
 function float SuggestAttackStyle()
 {
-	if ((AIController(Instigator.Controller) != None) && (AIController(Instigator.Controller).Skill < 3))
+	if ( (AIController(Instigator.Controller) != None)
+		&& (AIController(Instigator.Controller).Skill < 3) )
 		return 0.4;
-
-	return 0.8;
+    return 0.8;
 }
 
 function float SuggestDefenseStyle()
 {
-	return -0.1;
+    return -0.1;
 }
 
 defaultproperties

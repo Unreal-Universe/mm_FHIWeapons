@@ -1,9 +1,24 @@
-class MiniRocketAltFire extends tk_RocketMultiFire;
+class MiniRocketAltFire extends tk_ProjectileFire;
+
+var() float TightSpread, LooseSpread;
+var byte FlockIndex;
+var int MaxLoad;
+
+event ModeHoldFire()
+{
+	if (Instigator.IsLocallyControlled())
+		PlayStartHold();
+	else
+		ServerPlayLoading();
+}
 
 simulated function ServerPlayLoading()
 {
 	MiniRocketLauncher(Weapon).PlayOwnedSound(Sound'tk_FHIWeapons.FHISnd.GrenadeLauncher_PickupAmmo', SLOT_None,,,,,false);
 }
+
+function PlayFireEnd()
+{}
 
 function PlayStartHold()
 {
@@ -44,9 +59,9 @@ function DoFireEffect()
 {
 	local Vector StartProj, StartTrace, X,Y,Z;
 	local Rotator Aim;
-	local Vector HitLocation, HitNormal, FireLocation;
+	local Vector HitLocation, HitNormal,FireLocation;
 	local Actor Other;
-	local int p, q, SpawnCount, i;
+	local int p,q, SpawnCount, i;
 	local MiniRocketProj FiredRockets[7];
 	local bool bCurl;
 
@@ -161,9 +176,16 @@ function ModeTick(float dt)
 	}
 }
 
+function InitEffects()
+{
+	Super.InitEffects();
+	if (FlashEmitter != None)
+		Weapon.AttachToBone(FlashEmitter, 'flash');
+}
+
 function Projectile SpawnProjectile(Vector Start, Rotator Dir)
 {
-	local Projectile p;    
+	local Projectile p;
 	
 	p = MiniRocketLauncher(Weapon).SpawnProjectile(Start, Dir);
 	if (P != None)

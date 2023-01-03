@@ -1,11 +1,11 @@
 class GrenadePPG extends Projectile;
 
-var() vector ShakeRotMag;          // how far to rot view
-var() vector ShakeRotRate;         // how fast to rot view
-var() float ShakeRotTime;          // how much time to rot the instigator's view
-var() vector ShakeOffsetMag;       // max view offset vertically
-var() vector ShakeOffsetRate;      // how fast to offset view vertically
-var() float ShakeOffsetTime;       // how much time to offset view
+var() vector ShakeRotMag;	// how far to rot view
+var() vector ShakeRotRate;	// how fast to rot view
+var() float ShakeRotTime;	// how much time to rot the instigator's view
+var() vector ShakeOffsetMag;	// max view offset vertically
+var() vector ShakeOffsetRate;	// how fast to offset view vertically
+var() float ShakeOffsetTime;	// how much time to offset view
 
 var bool bTimerSet, bExploded;
 var float ExplodeTimer, LastSparkTime;

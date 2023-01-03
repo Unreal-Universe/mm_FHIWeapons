@@ -24,7 +24,7 @@ simulated function PostBeginPlay()
 	}
 
 	Super.PostBeginPlay();
-	Velocity = Vector(Rotation) * Speed;  
+	Velocity = Vector(Rotation) * Speed;
 	R = Rotation;
 	R.Roll = 32768;
 	SetRotation(R);

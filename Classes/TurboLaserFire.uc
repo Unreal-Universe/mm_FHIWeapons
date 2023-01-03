@@ -1,6 +1,6 @@
 class TurboLaserFire extends tk_InstantFire;
 
-var() class<TurboBeamEffect> TLBeamEffectClass;
+var() class<TurboBeamEffect>	TLBeamEffectClass;
 
 function DoFireEffect()
 {

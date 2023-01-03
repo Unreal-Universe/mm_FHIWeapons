@@ -3,7 +3,7 @@ class RazorBomb extends tk_FlakCannon
 
 simulated function float ChargeBar()
 {
-	return FMin(1, FireMode[1].HoldTime / RazorBombHeld(FireMode[1]).mHoldClampMax);
+	return FMin(1,FireMode[1].HoldTime/RazorBombHeld(FireMode[1]).mHoldClampMax);
 }
 
 defaultproperties

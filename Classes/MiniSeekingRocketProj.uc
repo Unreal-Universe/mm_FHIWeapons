@@ -27,7 +27,7 @@ simulated function Timer()
 			VelMag = VSize(Velocity);
 
 			ForceDir = Normal((ForceDir * 0.5 * VelMag) + (0.4 * Velocity));
-			Velocity =  VelMag * ForceDir;  
+			Velocity =  VelMag * ForceDir;
 			Acceleration += 5 * ForceDir; 
 		}
 

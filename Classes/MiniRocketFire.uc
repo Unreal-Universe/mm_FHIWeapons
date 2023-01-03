@@ -1,4 +1,11 @@
-class MiniRocketFire extends tk_RocketFire;
+class MiniRocketFire extends tk_ProjectileFire;
+
+function InitEffects()
+{
+	Super.InitEffects();
+	if (FlashEmitter != None)
+		Weapon.AttachToBone(FlashEmitter, 'flash');
+}
 
 function PlayFiring()
 {

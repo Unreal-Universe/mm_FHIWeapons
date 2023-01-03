@@ -11,7 +11,6 @@ function PostBeginPlay()
     mHoldClampMax = (mHoldSpeedMax - mHoldSpeedMin) / mHoldSpeedGainPerSec;
 }
 
-
 function projectile SpawnProjectile(Vector Start, Rotator Dir)
 {
     local RazorBombProj g;
@@ -38,10 +37,17 @@ function projectile SpawnProjectile(Vector Start, Rotator Dir)
     return g;
 }
 
-function PlayPreFire()   {}
-function PlayStartHold() {}
-function PlayFiring()    {}
-function PlayFireEnd()   {}
+function PlayPreFire()
+{}
+
+function PlayStartHold()
+{}
+
+function PlayFiring()
+{}
+
+function PlayFireEnd()
+{}
 
 defaultproperties
 {

@@ -2,9 +2,9 @@ class SporeAltFire extends tk_ProjectileFire;
 
 function DrawMuzzleFlash(Canvas Canvas)
 {
-	if (FlashEmitter != None)
-		FlashEmitter.SetRotation(Weapon.Rotation);
-	Super.DrawMuzzleFlash(Canvas);
+    if (FlashEmitter != None)
+        FlashEmitter.SetRotation(Weapon.Rotation);
+    Super.DrawMuzzleFlash(Canvas);
 }
 
 function float MaxRange()
