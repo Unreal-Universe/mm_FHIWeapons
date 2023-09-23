@@ -49,8 +49,8 @@ simulated function Destroyed()
 {
     if ( !bNoFX && EffectIsRelevant(Location,false) )
     {
-        Spawn(class'tk_FHIWeapons.SporeSmoke');
-        Spawn(class'tk_FHIWeapons.SporeSparks');
+        Spawn(class'mm_FHIWeapons.SporeSmoke');
+        Spawn(class'mm_FHIWeapons.SporeSparks');
     }
 	if ( Fear != None )
 		Fear.Destroy();
@@ -114,7 +114,7 @@ auto state Flying
                 SplashGlobs(GoopLevel - CoreGoopLevel);
             SetGoopLevel(CoreGoopLevel);
         }
-		spawn(class'tk_FHIWeapons.SporeDecal',,,, rotator(-HitNormal));
+		spawn(class'mm_FHIWeapons.SporeDecal',,,, rotator(-HitNormal));
 
         bCollideWorld = false;
         SetCollisionSize(GoopVolume*10.0, GoopVolume*10.0);
@@ -344,7 +344,7 @@ defaultproperties
      bSwitchToZeroCollision=True
      Damage=32.000000
      MomentumTransfer=44000.000000
-     MyDamageType=Class'tk_FHIWeapons.DamTypeSpore'
+     MyDamageType=Class'mm_FHIWeapons.DamTypeSpore'
      ImpactSound=SoundGroup'WeaponSounds.BioRifle.BioRifleGoo2'
      LightType=LT_Steady
      LightEffect=LE_QuadraticNonIncidence

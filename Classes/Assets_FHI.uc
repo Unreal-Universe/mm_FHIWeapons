@@ -20,7 +20,7 @@ class Assets_FHI extends info;
 #exec obj load file="xGameShaders.utx"
 
 // custom
-#exec obj load file="Content/rs_FHI.u" package="tk_FHIWeapons"
+#exec obj load file="Content/rs_FHI.u" package="mm_FHIWeapons"
 
 defaultproperties
 {

@@ -2,7 +2,7 @@ class DamTypeRazorBomb extends DamTypeFlakChunk;
 
 defaultproperties
 {
-     WeaponClass=Class'tk_FHIWeapons.RazorBomb'
+     WeaponClass=Class'mm_FHIWeapons.RazorBomb'
      DeathString="%o was blown to pieces by %k's RazorBomb"
      FemaleSuicide="%o blew herself up with a RazorBomb"
      MaleSuicide="%o blew himself up with a RazorBomb"

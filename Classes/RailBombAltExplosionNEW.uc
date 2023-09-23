@@ -3,7 +3,7 @@ class RailBombAltExplosionNEW extends Emitter;
 defaultproperties
 {
      Begin Object Class=MeshEmitter Name=MeshEmitter1
-         StaticMesh=StaticMesh'tk_FHIWeapons.FHIMesh.RailBombDebris'
+         StaticMesh=StaticMesh'mm_FHIWeapons.FHIMesh.RailBombDebris'
          UseParticleColor=True
          UseCollision=True
          UseColorScale=True
@@ -29,7 +29,7 @@ defaultproperties
          VelocityLossRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
          GetVelocityDirectionFrom=PTVD_AddRadial
      End Object
-     Emitters(0)=MeshEmitter'tk_FHIWeapons.RailBombAltExplosionNEW.MeshEmitter1'
+     Emitters(0)=MeshEmitter'mm_FHIWeapons.RailBombAltExplosionNEW.MeshEmitter1'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter7
          UseColorScale=True
@@ -70,7 +70,7 @@ defaultproperties
          VelocityScale(1)=(RelativeTime=0.200000,RelativeVelocity=(X=0.100000,Y=0.100000,Z=0.100000))
          VelocityScale(2)=(RelativeTime=1.000000)
      End Object
-     Emitters(1)=SpriteEmitter'tk_FHIWeapons.RailBombAltExplosionNEW.SpriteEmitter7'
+     Emitters(1)=SpriteEmitter'mm_FHIWeapons.RailBombAltExplosionNEW.SpriteEmitter7'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter8
          UseColorScale=True
@@ -96,7 +96,7 @@ defaultproperties
          Texture=Texture'AW-2004Particles.Energy.AirBlast'
          LifetimeRange=(Min=2.000000,Max=2.500000)
      End Object
-     Emitters(2)=SpriteEmitter'tk_FHIWeapons.RailBombAltExplosionNEW.SpriteEmitter8'
+     Emitters(2)=SpriteEmitter'mm_FHIWeapons.RailBombAltExplosionNEW.SpriteEmitter8'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter3
          UseDirectionAs=PTDU_Up
@@ -118,7 +118,7 @@ defaultproperties
          StartVelocityRadialRange=(Min=-200.000000,Max=-500.000000)
          GetVelocityDirectionFrom=PTVD_AddRadial
      End Object
-     Emitters(3)=SpriteEmitter'tk_FHIWeapons.RailBombAltExplosionNEW.SpriteEmitter3'
+     Emitters(3)=SpriteEmitter'mm_FHIWeapons.RailBombAltExplosionNEW.SpriteEmitter3'
 
      AutoDestroy=True
      bNoDelete=False

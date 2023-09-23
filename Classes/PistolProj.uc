@@ -52,7 +52,7 @@ defaultproperties
      Damage=95.000000
      DamageRadius=155.000000
      MomentumTransfer=15000.000000
-     MyDamageType=Class'tk_FHIWeapons.DamTypePistolAlt'
+     MyDamageType=Class'mm_FHIWeapons.DamTypePistolAlt'
      ExplosionDecal=Class'XEffects.LinkBoltScorch'
      DrawType=DT_StaticMesh
      StaticMesh=StaticMesh'WeaponStaticMesh.FlakChunk'

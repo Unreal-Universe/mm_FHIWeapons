@@ -3,7 +3,7 @@ class RazorBombProj extends rGrenade;
 simulated function Explode(vector HitLocation, vector HitNormal)
 {
     BlowUp(HitLocation);
-	PlaySound(Sound'tk_FHIWeapons.FHISnd.Explode_Generic02',,2.5*TransientSoundVolume);
+	PlaySound(Sound'mm_FHIWeapons.FHISnd.Explode_Generic02',,2.5*TransientSoundVolume);
     if ( EffectIsRelevant(Location,false) )
     {
         Spawn(class'NewExplosionB',,, HitLocation, rotator(vect(0,0,1)));
@@ -20,7 +20,7 @@ defaultproperties
      Damage=150.000000
      DamageRadius=350.000000
      MomentumTransfer=95000.000000
-     MyDamageType=Class'tk_FHIWeapons.DamTypeRazorBomb'
+     MyDamageType=Class'mm_FHIWeapons.DamTypeRazorBomb'
      StaticMesh=StaticMesh'XGame_rc.BallMesh'
      DrawScale=0.750000
 }

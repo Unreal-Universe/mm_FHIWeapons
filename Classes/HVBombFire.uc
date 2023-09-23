@@ -253,13 +253,13 @@ defaultproperties
      FireForce="AssaultRifleAltFire"
      ReloadForce="BReload9"
      FireRate=1.000000
-     AmmoClass=Class'tk_FHIWeapons.HVBombAmmo'
+     AmmoClass=Class'mm_FHIWeapons.HVBombAmmo'
      AmmoPerFire=1
      ShakeRotTime=2.000000
      ShakeOffsetMag=(X=-20.000000)
      ShakeOffsetRate=(X=-1000.000000)
      ShakeOffsetTime=2.000000
-     ProjectileClass=Class'tk_FHIWeapons.HVBombProjectile'
+     ProjectileClass=Class'mm_FHIWeapons.HVBombProjectile'
      BotRefireRate=0.550000
-     FlashEmitterClass=Class'tk_FHIWeapons.HVAssaultMuzFlash'
+     FlashEmitterClass=Class'mm_FHIWeapons.HVAssaultMuzFlash'
 }

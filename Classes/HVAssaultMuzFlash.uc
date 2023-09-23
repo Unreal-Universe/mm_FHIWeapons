@@ -25,9 +25,9 @@ defaultproperties
      mSizeRange(0)=0.050000
      mSizeRange(1)=0.080000
      mGrowthRate=1.500000
-     mMeshNodes(0)=StaticMesh'tk_FHIWeapons.FHIMesh.HVMuzFlashMesh'
+     mMeshNodes(0)=StaticMesh'mm_FHIWeapons.FHIMesh.HVMuzFlashMesh'
      DrawScale=1.700000
      DrawScale3D=(X=1.500000)
-     Skins(0)=FinalBlend'tk_FHIWeapons.FHIMat.HVAssaultMuzFlash_FB'
+     Skins(0)=FinalBlend'mm_FHIWeapons.FHIMat.HVAssaultMuzFlash_FB'
      Style=STY_Additive
 }

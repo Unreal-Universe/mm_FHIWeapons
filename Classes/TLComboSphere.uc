@@ -13,6 +13,6 @@ defaultproperties
      DrawType=DT_StaticMesh
      StaticMesh=StaticMesh'Editor.TexPropSphere'
      bHighDetail=True
-     Skins(0)=Shader'tk_FHIWeapons.FHIShaders.TurboLaserEnergyShader'
+     Skins(0)=Shader'mm_FHIWeapons.FHIShaders.TurboLaserEnergyShader'
      bUnlit=True
 }

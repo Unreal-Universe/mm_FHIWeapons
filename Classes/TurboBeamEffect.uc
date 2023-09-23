@@ -72,8 +72,8 @@ simulated function SpawnEffects()
 
 defaultproperties
 {
-     MuzFlashClass=Class'tk_FHIWeapons.TurboLaserMuzFlash'
-     MuzFlash3Class=Class'tk_FHIWeapons.TurboLaserMuzFlash3rd'
+     MuzFlashClass=Class'mm_FHIWeapons.TurboLaserMuzFlash'
+     MuzFlash3Class=Class'mm_FHIWeapons.TurboLaserMuzFlash3rd'
      mParticleType=PT_Beam
      mMaxParticles=3
      mLifeRange(0)=0.750000
@@ -86,7 +86,7 @@ defaultproperties
      RemoteRole=ROLE_SimulatedProxy
      NetPriority=3.000000
      LifeSpan=0.750000
-     Texture=Texture'tk_FHIWeapons.FHITex.LaserBeamTex_B'
-     Skins(0)=Texture'tk_FHIWeapons.FHITex.LaserBeamTex_B'
+     Texture=Texture'mm_FHIWeapons.FHITex.LaserBeamTex_B'
+     Skins(0)=Texture'mm_FHIWeapons.FHITex.LaserBeamTex_B'
      Style=STY_Additive
 }

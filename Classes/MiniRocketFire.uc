@@ -37,13 +37,13 @@ defaultproperties
      FireSound=SoundGroup'WeaponSounds.RocketLauncher.RocketLauncherFire'
      FireForce="RocketLauncherFire"
      FireRate=0.270000
-     AmmoClass=Class'tk_FHIWeapons.MiniRocketAmmo'
+     AmmoClass=Class'mm_FHIWeapons.MiniRocketAmmo'
      AmmoPerFire=1
      ShakeRotTime=2.000000
      ShakeOffsetMag=(X=-20.000000)
      ShakeOffsetRate=(X=-1000.000000)
      ShakeOffsetTime=2.000000
-     ProjectileClass=Class'tk_FHIWeapons.MiniRocketProj'
+     ProjectileClass=Class'mm_FHIWeapons.MiniRocketProj'
      BotRefireRate=0.790000
      WarnTargetPct=0.900000
      FlashEmitterClass=Class'XEffects.RocketMuzFlash1st'

@@ -138,11 +138,11 @@ defaultproperties
      MaxSpeed=2900.000000
      Damage=35.000000
      MomentumTransfer=7500.000000
-     MyDamageType=Class'tk_FHIWeapons.DamTypeRazor'
-     ImpactSound=Sound'tk_FHIWeapons.FHISnd.Impact_Razor'
+     MyDamageType=Class'mm_FHIWeapons.DamTypeRazor'
+     ImpactSound=Sound'mm_FHIWeapons.FHISnd.Impact_Razor'
      DrawType=DT_StaticMesh
-     StaticMesh=StaticMesh'tk_FHIWeapons.FHIMesh.RazorDisc'
-     AmbientSound=Sound'tk_FHIWeapons.FHISnd.Ambient_RazorHum'
+     StaticMesh=StaticMesh'mm_FHIWeapons.FHIMesh.RazorDisc'
+     AmbientSound=Sound'mm_FHIWeapons.FHISnd.Ambient_RazorHum'
      LifeSpan=10.000000
      DrawScale=0.750000
      AmbientGlow=254

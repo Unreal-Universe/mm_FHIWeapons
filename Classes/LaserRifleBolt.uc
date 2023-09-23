@@ -37,7 +37,7 @@ defaultproperties
      RemoteRole=ROLE_SimulatedProxy
      NetPriority=3.000000
      LifeSpan=0.750000
-     Texture=FinalBlend'tk_FHIWeapons.FHIMat.LaserRifleBeam_FB'
-     Skins(0)=FinalBlend'tk_FHIWeapons.FHIMat.LaserRifleBeam_FB'
+     Texture=FinalBlend'mm_FHIWeapons.FHIMat.LaserRifleBeam_FB'
+     Skins(0)=FinalBlend'mm_FHIWeapons.FHIMat.LaserRifleBeam_FB'
      Style=STY_Translucent
 }

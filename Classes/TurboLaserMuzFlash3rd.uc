@@ -14,6 +14,6 @@ defaultproperties
      mSizeRange(1)=95.000000
      mGrowthRate=80.000000
      mAttenKa=0.000000
-     Skins(0)=Texture'tk_FHIWeapons.FHITex.Flare_H'
+     Skins(0)=Texture'mm_FHIWeapons.FHITex.Flare_H'
      Style=STY_Additive
 }

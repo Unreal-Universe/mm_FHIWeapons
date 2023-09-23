@@ -28,9 +28,9 @@ defaultproperties
 {
      bHighDetail=True
      Physics=PHYS_Trailer
-     Texture=Texture'tk_FHIWeapons.FHITex.Flare_C'
+     Texture=Texture'mm_FHIWeapons.FHITex.Flare_C'
      DrawScale3D=(X=0.315000,Y=0.315000,Z=0.315000)
-     Skins(0)=Texture'tk_FHIWeapons.FHITex.Flare_C'
+     Skins(0)=Texture'mm_FHIWeapons.FHITex.Flare_C'
      Style=STY_Translucent
      Mass=13.000000
 }

@@ -102,11 +102,11 @@ simulated function float ChargeBar()
 
 defaultproperties
 {
-     FireModeClass(0)=Class'tk_FHIWeapons.GrenadePrimaryFire'
-     FireModeClass(1)=Class'tk_FHIWeapons.GrenadeSecondaryFire'
+     FireModeClass(0)=Class'mm_FHIWeapons.GrenadePrimaryFire'
+     FireModeClass(1)=Class'mm_FHIWeapons.GrenadeSecondaryFire'
      PutDownAnim="PutDown"
      IdleAnimRate=0.200000
-     SelectSound=Sound'tk_FHIWeapons.FHISnd.GrenadeLauncher_Select'
+     SelectSound=Sound'mm_FHIWeapons.FHISnd.GrenadeLauncher_Select'
      SelectForce="SwitchToFlakCannon"
      AIRating=0.750000
      CurrentRating=0.750000
@@ -119,10 +119,10 @@ defaultproperties
      SmallViewOffset=(X=166.000000,Y=48.000000,Z=-54.000000)
      InventoryGroup=7
      GroupOffset=25
-     PickupClass=Class'tk_FHIWeapons.GrenadeLauncherPickup'
+     PickupClass=Class'mm_FHIWeapons.GrenadeLauncherPickup'
      PlayerViewOffset=(X=150.000000,Y=40.000000,Z=-46.000000)
      BobDamping=3.000000
-     AttachmentClass=Class'tk_FHIWeapons.GrenadeLauncherAttachment'
+     AttachmentClass=Class'mm_FHIWeapons.GrenadeLauncherAttachment'
      IconMaterial=Texture'HUDContent.Generic.HUD'
      IconCoords=(X1=434,Y1=253,X2=506,Y2=292)
      ItemName="Plasma Grenade Launcher"

@@ -14,7 +14,7 @@ defaultproperties
          InitialParticlesPerSecond=500000.000000
          LifetimeRange=(Min=5.800000,Max=5.800000)
      End Object
-     Emitters(0)=SpriteEmitter'tk_FHIWeapons.SC_ExplosionNEW.SpriteEmitter0'
+     Emitters(0)=SpriteEmitter'mm_FHIWeapons.SC_ExplosionNEW.SpriteEmitter0'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter1
          UseDirectionAs=PTDU_Right
@@ -47,7 +47,7 @@ defaultproperties
          StartVelocityRadialRange=(Min=750.000000,Max=750.000000)
          GetVelocityDirectionFrom=PTVD_AddRadial
      End Object
-     Emitters(1)=SpriteEmitter'tk_FHIWeapons.SC_ExplosionNEW.SpriteEmitter1'
+     Emitters(1)=SpriteEmitter'mm_FHIWeapons.SC_ExplosionNEW.SpriteEmitter1'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter2
          UseColorScale=True
@@ -66,7 +66,7 @@ defaultproperties
          Texture=Texture'AW-2004Particles.Weapons.LargeSpot'
          LifetimeRange=(Min=3.000000,Max=3.000000)
      End Object
-     Emitters(2)=SpriteEmitter'tk_FHIWeapons.SC_ExplosionNEW.SpriteEmitter2'
+     Emitters(2)=SpriteEmitter'mm_FHIWeapons.SC_ExplosionNEW.SpriteEmitter2'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter3
          UseDirectionAs=PTDU_Right
@@ -99,7 +99,7 @@ defaultproperties
          StartVelocityRadialRange=(Min=1000.000000,Max=1000.000000)
          GetVelocityDirectionFrom=PTVD_AddRadial
      End Object
-     Emitters(3)=SpriteEmitter'tk_FHIWeapons.SC_ExplosionNEW.SpriteEmitter3'
+     Emitters(3)=SpriteEmitter'mm_FHIWeapons.SC_ExplosionNEW.SpriteEmitter3'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter4
          RespawnDeadParticles=False
@@ -118,10 +118,10 @@ defaultproperties
          StartSizeRange=(X=(Min=200.000000,Max=200.000000))
          InitialParticlesPerSecond=10.000000
          DrawStyle=PTDS_AlphaBlend
-         Texture=Texture'tk_FHIWeapons.FHITex.Sing_C'
+         Texture=Texture'mm_FHIWeapons.FHITex.Sing_C'
          LifetimeRange=(Min=1.000000,Max=1.000000)
      End Object
-     Emitters(4)=SpriteEmitter'tk_FHIWeapons.SC_ExplosionNEW.SpriteEmitter4'
+     Emitters(4)=SpriteEmitter'mm_FHIWeapons.SC_ExplosionNEW.SpriteEmitter4'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter5
          UseColorScale=True
@@ -141,11 +141,11 @@ defaultproperties
          StartSizeRange=(X=(Min=200.000000,Max=200.000000))
          InitialParticlesPerSecond=4.000000
          DrawStyle=PTDS_AlphaBlend
-         Texture=Texture'tk_FHIWeapons.FHITex.Sing_C'
+         Texture=Texture'mm_FHIWeapons.FHITex.Sing_C'
          LifetimeRange=(Min=0.900000,Max=0.900000)
          InitialDelayRange=(Min=0.400000,Max=0.400000)
      End Object
-     Emitters(5)=SpriteEmitter'tk_FHIWeapons.SC_ExplosionNEW.SpriteEmitter5'
+     Emitters(5)=SpriteEmitter'mm_FHIWeapons.SC_ExplosionNEW.SpriteEmitter5'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter6
          UseColorScale=True
@@ -174,7 +174,7 @@ defaultproperties
          LifetimeRange=(Min=1.400000,Max=1.400000)
          InitialDelayRange=(Min=1.700000,Max=1.700000)
      End Object
-     Emitters(6)=SpriteEmitter'tk_FHIWeapons.SC_ExplosionNEW.SpriteEmitter6'
+     Emitters(6)=SpriteEmitter'mm_FHIWeapons.SC_ExplosionNEW.SpriteEmitter6'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter7
          UseDirectionAs=PTDU_Forward
@@ -218,7 +218,7 @@ defaultproperties
          VelocityScale(2)=(RelativeTime=0.400000,RelativeVelocity=(X=0.010000,Y=0.010000,Z=0.010000))
          VelocityScale(3)=(RelativeTime=1.000000,RelativeVelocity=(X=0.010000,Y=0.010000,Z=0.010000))
      End Object
-     Emitters(7)=SpriteEmitter'tk_FHIWeapons.SC_ExplosionNEW.SpriteEmitter7'
+     Emitters(7)=SpriteEmitter'mm_FHIWeapons.SC_ExplosionNEW.SpriteEmitter7'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter8
          UseColorScale=True
@@ -239,7 +239,7 @@ defaultproperties
          LifetimeRange=(Min=0.800000,Max=0.800000)
          InitialDelayRange=(Min=2.000000,Max=2.000000)
      End Object
-     Emitters(8)=SpriteEmitter'tk_FHIWeapons.SC_ExplosionNEW.SpriteEmitter8'
+     Emitters(8)=SpriteEmitter'mm_FHIWeapons.SC_ExplosionNEW.SpriteEmitter8'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter9
          UseColorScale=True
@@ -270,7 +270,7 @@ defaultproperties
          StartVelocityRadialRange=(Min=-3000.000000,Max=-3000.000000)
          GetVelocityDirectionFrom=PTVD_AddRadial
      End Object
-     Emitters(9)=SpriteEmitter'tk_FHIWeapons.SC_ExplosionNEW.SpriteEmitter9'
+     Emitters(9)=SpriteEmitter'mm_FHIWeapons.SC_ExplosionNEW.SpriteEmitter9'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter10
          UseColorScale=True
@@ -300,7 +300,7 @@ defaultproperties
          LifetimeRange=(Min=0.500000,Max=0.500000)
          InitialDelayRange=(Min=3.150000,Max=3.150000)
      End Object
-     Emitters(10)=SpriteEmitter'tk_FHIWeapons.SC_ExplosionNEW.SpriteEmitter10'
+     Emitters(10)=SpriteEmitter'mm_FHIWeapons.SC_ExplosionNEW.SpriteEmitter10'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter11
          UseColorScale=True
@@ -329,7 +329,7 @@ defaultproperties
          LifetimeRange=(Min=0.500000,Max=0.500000)
          InitialDelayRange=(Min=3.300000,Max=3.300000)
      End Object
-     Emitters(11)=SpriteEmitter'tk_FHIWeapons.SC_ExplosionNEW.SpriteEmitter11'
+     Emitters(11)=SpriteEmitter'mm_FHIWeapons.SC_ExplosionNEW.SpriteEmitter11'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter12
          UseColorScale=True
@@ -358,7 +358,7 @@ defaultproperties
          LifetimeRange=(Min=0.500000,Max=0.500000)
          InitialDelayRange=(Min=3.450000,Max=3.450000)
      End Object
-     Emitters(12)=SpriteEmitter'tk_FHIWeapons.SC_ExplosionNEW.SpriteEmitter12'
+     Emitters(12)=SpriteEmitter'mm_FHIWeapons.SC_ExplosionNEW.SpriteEmitter12'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter13
          UseColorScale=True
@@ -390,7 +390,7 @@ defaultproperties
          LifetimeRange=(Min=0.500000,Max=0.500000)
          InitialDelayRange=(Min=3.600000,Max=3.600000)
      End Object
-     Emitters(13)=SpriteEmitter'tk_FHIWeapons.SC_ExplosionNEW.SpriteEmitter13'
+     Emitters(13)=SpriteEmitter'mm_FHIWeapons.SC_ExplosionNEW.SpriteEmitter13'
 
      Begin Object Class=MeshEmitter Name=MeshEmitter0
          StaticMesh=StaticMesh'AW-2004Particles.Shapes.NodeHealRing'
@@ -414,7 +414,7 @@ defaultproperties
          LifetimeRange=(Min=0.800000,Max=0.800000)
          InitialDelayRange=(Min=3.200000,Max=3.200000)
      End Object
-     Emitters(14)=MeshEmitter'tk_FHIWeapons.SC_ExplosionNEW.MeshEmitter0'
+     Emitters(14)=MeshEmitter'mm_FHIWeapons.SC_ExplosionNEW.MeshEmitter0'
 
      AutoDestroy=True
      bNoDelete=False

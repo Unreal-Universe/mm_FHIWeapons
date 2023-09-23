@@ -24,16 +24,16 @@ defaultproperties
      TransientSoundVolume=1.000000
      FireAnim="AltFire"
      FireEndAnim=
-     FireSound=Sound'tk_FHIWeapons.FHISnd.Railgun_AltFire'
+     FireSound=Sound'mm_FHIWeapons.FHISnd.Railgun_AltFire'
      FireForce="FlakCannonAltFire"
      FireRate=0.750000
-     AmmoClass=Class'tk_FHIWeapons.RailgunAmmo'
+     AmmoClass=Class'mm_FHIWeapons.RailgunAmmo'
      AmmoPerFire=1
      ShakeRotTime=2.000000
      ShakeOffsetMag=(X=-20.000000)
      ShakeOffsetRate=(X=-1000.000000)
      ShakeOffsetTime=2.000000
-     ProjectileClass=Class'tk_FHIWeapons.RailBomb'
+     ProjectileClass=Class'mm_FHIWeapons.RailBomb'
      BotRefireRate=0.700000
      WarnTargetPct=0.900000
 }

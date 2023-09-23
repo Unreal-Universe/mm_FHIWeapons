@@ -14,7 +14,7 @@ event ModeHoldFire()
 
 simulated function ServerPlayLoading()
 {
-	MiniRocketLauncher(Weapon).PlayOwnedSound(Sound'tk_FHIWeapons.FHISnd.GrenadeLauncher_PickupAmmo', SLOT_None,,,,,false);
+	MiniRocketLauncher(Weapon).PlayOwnedSound(Sound'mm_FHIWeapons.FHISnd.GrenadeLauncher_PickupAmmo', SLOT_None,,,,,false);
 }
 
 function PlayFireEnd()
@@ -212,9 +212,9 @@ defaultproperties
      FireSound=SoundGroup'WeaponSounds.RocketLauncher.RocketLauncherFire'
      FireForce="RocketLauncherFire"
      FireRate=0.250000
-     AmmoClass=Class'tk_FHIWeapons.MiniRocketAmmo'
+     AmmoClass=Class'mm_FHIWeapons.MiniRocketAmmo'
      AmmoPerFire=1
-     ProjectileClass=Class'tk_FHIWeapons.MiniRocketProj'
+     ProjectileClass=Class'mm_FHIWeapons.MiniRocketProj'
      BotRefireRate=0.775000
      WarnTargetPct=0.900000
      FlashEmitterClass=Class'XEffects.RocketMuzFlash1st'

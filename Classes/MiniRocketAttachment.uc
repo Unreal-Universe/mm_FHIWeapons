@@ -90,5 +90,5 @@ defaultproperties
      MuzFlashClass=Class'XEffects.RocketMuzFlash3rd'
      bRapidFire=True
      Mesh=SkeletalMesh'Weapons.Minigun_3rd'
-     Skins(0)=Texture'tk_FHIWeapons.FHITex.MiniRocketTex'
+     Skins(0)=Texture'mm_FHIWeapons.FHITex.MiniRocketTex'
 }

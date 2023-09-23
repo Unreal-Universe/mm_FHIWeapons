@@ -22,7 +22,7 @@ defaultproperties
          Texture=Texture'AW-2004Particles.Weapons.PlasmaStar'
          LifetimeRange=(Min=0.650000,Max=0.650000)
      End Object
-     Emitters(0)=SpriteEmitter'tk_FHIWeapons.RailExplosionNEW.SpriteEmitter0'
+     Emitters(0)=SpriteEmitter'mm_FHIWeapons.RailExplosionNEW.SpriteEmitter0'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter4
          UseColorScale=True
@@ -44,7 +44,7 @@ defaultproperties
          Texture=Texture'AW-2004Particles.Energy.SmoothRing'
          LifetimeRange=(Min=1.050000,Max=1.050000)
      End Object
-     Emitters(1)=SpriteEmitter'tk_FHIWeapons.RailExplosionNEW.SpriteEmitter4'
+     Emitters(1)=SpriteEmitter'mm_FHIWeapons.RailExplosionNEW.SpriteEmitter4'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter3
          UseDirectionAs=PTDU_Up
@@ -66,7 +66,7 @@ defaultproperties
          StartVelocityRadialRange=(Min=-100.000000,Max=-400.000000)
          GetVelocityDirectionFrom=PTVD_AddRadial
      End Object
-     Emitters(2)=SpriteEmitter'tk_FHIWeapons.RailExplosionNEW.SpriteEmitter3'
+     Emitters(2)=SpriteEmitter'mm_FHIWeapons.RailExplosionNEW.SpriteEmitter3'
 
      AutoDestroy=True
      bNoDelete=False

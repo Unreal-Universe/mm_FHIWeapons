@@ -3,9 +3,9 @@ class DamTypeLaserShot extends DamTypeSniperShot
 
 defaultproperties
 {
-     WeaponClass=Class'tk_FHIWeapons.LaserRifle'
+     WeaponClass=Class'mm_FHIWeapons.LaserRifle'
      DeathString="%o was fried by %k's laser rifle"
-     DamageOverlayMaterial=Shader'tk_FHIWeapons.FHIShaders.LaserRifleHit_Shader'
+     DamageOverlayMaterial=Shader'mm_FHIWeapons.FHIShaders.LaserRifleHit_Shader'
      DamageOverlayTime=1.250000
      GibPerterbation=0.750000
 }

@@ -31,6 +31,6 @@ defaultproperties
      mAttenKa=0.000000
      mRandTextures=True
      mMeshNodes(0)=StaticMesh'XEffects.MinigunFlashMesh'
-     Skins(0)=FinalBlend'tk_FHIWeapons.FHIMat.TurboLaserMuzFlash3rd_FB'
+     Skins(0)=FinalBlend'mm_FHIWeapons.FHIMat.TurboLaserMuzFlash3rd_FB'
      Style=STY_Additive
 }

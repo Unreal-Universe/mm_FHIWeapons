@@ -3,8 +3,8 @@ class DamTypeLaserHeadShot extends DamTypeSniperHeadShot
 
 defaultproperties
 {
-     WeaponClass=Class'tk_FHIWeapons.LaserRifle'
+     WeaponClass=Class'mm_FHIWeapons.LaserRifle'
      DeathString="%o's head was removed by %k's laser rifle"
-     DamageOverlayMaterial=Shader'tk_FHIWeapons.FHIShaders.LaserRifleHit_Shader'
+     DamageOverlayMaterial=Shader'mm_FHIWeapons.FHIShaders.LaserRifleHit_Shader'
      DamageOverlayTime=1.000000
 }

@@ -47,15 +47,15 @@ defaultproperties
      TransientSoundVolume=1.000000
      FireLoopAnim=
      FireEndAnim=
-     FireSound=Sound'tk_FHIWeapons.FHISnd.GrenadeLauncher_Fire'
+     FireSound=Sound'mm_FHIWeapons.FHISnd.GrenadeLauncher_Fire'
      ReloadSound=Sound'WeaponSounds.BaseGunTech.BReload9'
      FireForce="AssaultRifleAltFire"
-     AmmoClass=Class'tk_FHIWeapons.GrenadeAmmo'
+     AmmoClass=Class'mm_FHIWeapons.GrenadeAmmo'
      AmmoPerFire=1
      ShakeRotTime=2.000000
      ShakeOffsetMag=(X=-20.000000)
      ShakeOffsetRate=(X=-1000.000000)
      ShakeOffsetTime=2.000000
-     ProjectileClass=Class'tk_FHIWeapons.GrenadeConc'
+     ProjectileClass=Class'mm_FHIWeapons.GrenadeConc'
      BotRefireRate=0.800000
 }

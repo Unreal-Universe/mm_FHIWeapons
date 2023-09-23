@@ -31,6 +31,6 @@ defaultproperties
      mNumTileRows=2
      mMeshNodes(0)=StaticMesh'XEffects.MinigunMuzFlash1stMesh'
      DrawScale=0.700000
-     Skins(0)=FinalBlend'tk_FHIWeapons.FHIMat.TurboLaserMuzFlash1st_FB'
+     Skins(0)=FinalBlend'mm_FHIWeapons.FHIMat.TurboLaserMuzFlash1st_FB'
      Style=STY_Additive
 }

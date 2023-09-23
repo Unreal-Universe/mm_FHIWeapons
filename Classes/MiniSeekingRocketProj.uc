@@ -43,6 +43,6 @@ simulated function PostBeginPlay()
 
 defaultproperties
 {
-     MyDamageType=Class'tk_FHIWeapons.DamTypeMiniRocketHoming'
+     MyDamageType=Class'mm_FHIWeapons.DamTypeMiniRocketHoming'
      LifeSpan=15.000000
 }

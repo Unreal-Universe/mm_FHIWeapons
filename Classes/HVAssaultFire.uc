@@ -71,7 +71,7 @@ function StartSuperBerserk()
 
 defaultproperties
 {
-     DamageType=Class'tk_FHIWeapons.DamTypeHVAssaultBullet'
+     DamageType=Class'mm_FHIWeapons.DamTypeHVAssaultBullet'
      DamageMin=11
      DamageMax=14
      Momentum=0.000000
@@ -80,10 +80,10 @@ defaultproperties
      TransientSoundVolume=1.000000
      FireLoopAnim=
      FireEndAnim=
-     FireSound=Sound'tk_FHIWeapons.FHISnd.HVAssaultRifleFire'
+     FireSound=Sound'mm_FHIWeapons.FHISnd.HVAssaultRifleFire'
      FireForce="AssaultRifleFire"
      FireRate=0.095000
-     AmmoClass=Class'tk_FHIWeapons.HVAssaultAmmo'
+     AmmoClass=Class'mm_FHIWeapons.HVAssaultAmmo'
      AmmoPerFire=1
      ShakeRotMag=(X=50.000000,Y=50.000000,Z=50.000000)
      ShakeRotRate=(X=10000.000000,Y=10000.000000,Z=10000.000000)
@@ -92,7 +92,7 @@ defaultproperties
      ShakeOffsetRate=(X=1000.000000,Y=1000.000000,Z=1000.000000)
      ShakeOffsetTime=2.000000
      BotRefireRate=0.990000
-     FlashEmitterClass=Class'tk_FHIWeapons.HVAssaultMuzFlash'
+     FlashEmitterClass=Class'mm_FHIWeapons.HVAssaultMuzFlash'
      aimerror=800.000000
      Spread=0.015000
      SpreadStyle=SS_Random

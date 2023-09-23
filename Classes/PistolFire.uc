@@ -41,15 +41,15 @@ function StartSuperBerserk()
 defaultproperties
 {
      HeadShotDamageMult=3.000000
-     DamageTypeHeadShot=Class'tk_FHIWeapons.DamTypePistolHeadShot'
-     DamageType=Class'tk_FHIWeapons.DamTypePistol'
+     DamageTypeHeadShot=Class'mm_FHIWeapons.DamTypePistolHeadShot'
+     DamageType=Class'mm_FHIWeapons.DamTypePistol'
      DamageMin=65
      DamageMax=65
      TraceRange=19000.000000
      TransientSoundVolume=1.000000
      FireAnimRate=0.950000
-     FireSound=Sound'tk_FHIWeapons.FHISnd.Pistol_Fire'
+     FireSound=Sound'mm_FHIWeapons.FHISnd.Pistol_Fire'
      FireRate=0.500000
-     AmmoClass=Class'tk_FHIWeapons.PistolAmmo'
+     AmmoClass=Class'mm_FHIWeapons.PistolAmmo'
      BotRefireRate=0.800000
 }

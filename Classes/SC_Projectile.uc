@@ -170,7 +170,7 @@ defaultproperties
      MaxSpeed=350.000000
      Damage=50.000000
      DamageRadius=1000.000000
-     MyDamageType=Class'tk_FHIWeapons.DamTypeSingularityCannon'
+     MyDamageType=Class'mm_FHIWeapons.DamTypeSingularityCannon'
      ExplosionDecal=Class'XEffects.RocketMark'
      LightType=LT_Steady
      LightEffect=LE_NonIncidence
@@ -181,7 +181,7 @@ defaultproperties
      LightPeriod=3
      DrawType=DT_None
      bDynamicLight=True
-     AmbientSound=Sound'tk_FHIWeapons.FHISnd.Ambient_BlackHole'
+     AmbientSound=Sound'mm_FHIWeapons.FHISnd.Ambient_BlackHole'
      LifeSpan=10.000000
      SoundVolume=255
      SoundRadius=150.000000

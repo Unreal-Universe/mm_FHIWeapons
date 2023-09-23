@@ -29,10 +29,10 @@ function Timer()
 
 simulated function SpawnEffects( vector HitLocation, vector HitNormal )
 {
-	PlaySound (Sound'tk_FHIWeapons.FHISnd.Explode_Generic13',,1.0*TransientSoundVolume);
+	PlaySound (Sound'mm_FHIWeapons.FHISnd.Explode_Generic13',,1.0*TransientSoundVolume);
 	if ( EffectIsRelevant(Location,false) )
 	{
-		spawn(class'tk_FHIWeapons.ShotgunExplodeIncendiary',,,HitLocation + HitNormal*16 );
+		spawn(class'mm_FHIWeapons.ShotgunExplodeIncendiary',,,HitLocation + HitNormal*16 );
 	}
 }
 
@@ -93,8 +93,8 @@ defaultproperties
      Damage=15.000000
      DamageRadius=35.000000
      MomentumTransfer=5500.000000
-     MyDamageType=Class'tk_FHIWeapons.DamTypeShotgunIncendiary'
-     ExplosionDecal=Class'tk_FHIWeapons.ShotgunImpactScorch'
+     MyDamageType=Class'mm_FHIWeapons.DamTypeShotgunIncendiary'
+     ExplosionDecal=Class'mm_FHIWeapons.ShotgunImpactScorch'
      DrawType=DT_StaticMesh
      StaticMesh=StaticMesh'WeaponStaticMesh.FlakChunk'
      LifeSpan=1.000000

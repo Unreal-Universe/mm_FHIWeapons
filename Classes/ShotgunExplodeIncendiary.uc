@@ -11,12 +11,12 @@ simulated function SpawnEffects()
 	}
 	if ( (Level.DetailMode == DM_Low) || Level.bDropDetail )
 	{
-		Spawn(class'tk_FHIWeapons.ShotgunSmallExplosion');
+		Spawn(class'mm_FHIWeapons.ShotgunSmallExplosion');
 		return;
 	}
 
 	Spawn(class'pclImpactSmoke');
-	Spawn(class'tk_FHIWeapons.ShotgunSmallExplosion');
+	Spawn(class'mm_FHIWeapons.ShotgunSmallExplosion');
 }
 
 defaultproperties

@@ -15,5 +15,5 @@ defaultproperties
      bHighDetail=True
      LifeSpan=0.750000
      DrawScale=10.000000
-     Skins(0)=FinalBlend'tk_FHIWeapons.FHIMat.TurboLaserEnergyB_FB'
+     Skins(0)=FinalBlend'mm_FHIWeapons.FHIMat.TurboLaserEnergyB_FB'
 }

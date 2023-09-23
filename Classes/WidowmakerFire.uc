@@ -127,29 +127,29 @@ function DoTrace(Vector Start, Rotator Dir)
 
 defaultproperties
 {
-     HitEmitterClass=Class'tk_FHIWeapons.WidowmakerTracer'
-     SecHitEmitterClass=Class'tk_FHIWeapons.WidowmakerSparks'
+     HitEmitterClass=Class'mm_FHIWeapons.WidowmakerTracer'
+     SecHitEmitterClass=Class'mm_FHIWeapons.WidowmakerSparks'
      NumArcs=4
      SecDamageMult=1.500000
      SecTraceDist=500.000000
      HeadShotDamageMult=2.000000
      HeadShotRadius=16.000000
-     DamageTypeHeadShot=Class'tk_FHIWeapons.DamTypeWidowmakerHeadShot'
-     DamageType=Class'tk_FHIWeapons.DamTypeWidowmaker'
+     DamageTypeHeadShot=Class'mm_FHIWeapons.DamTypeWidowmakerHeadShot'
+     DamageType=Class'mm_FHIWeapons.DamTypeWidowmaker'
      DamageMin=120
      DamageMax=120
      TraceRange=20000.000000
      TransientSoundVolume=1.000000
-     FireSound=Sound'tk_FHIWeapons.FHISnd.SniperRifle_Fire'
+     FireSound=Sound'mm_FHIWeapons.FHISnd.SniperRifle_Fire'
      FireForce="LightningGunFire"
      FireRate=1.000000
-     AmmoClass=Class'tk_FHIWeapons.WidowmakerAmmo'
+     AmmoClass=Class'mm_FHIWeapons.WidowmakerAmmo'
      AmmoPerFire=1
      ShakeRotTime=2.000000
      ShakeOffsetMag=(X=-15.000000,Z=10.000000)
      ShakeOffsetRate=(X=-4000.000000,Z=4000.000000)
      ShakeOffsetTime=1.600000
      BotRefireRate=0.800000
-     FlashEmitterClass=Class'tk_FHIWeapons.WidowmakerMuzFlash'
+     FlashEmitterClass=Class'mm_FHIWeapons.WidowmakerMuzFlash'
      aimerror=850.000000
 }

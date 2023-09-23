@@ -6,7 +6,7 @@ defaultproperties
 {
      AmmoAmount=50
      MaxDesireability=0.320000
-     InventoryType=Class'tk_FHIWeapons.SporeAmmo'
+     InventoryType=Class'mm_FHIWeapons.SporeAmmo'
      PickupMessage="You picked up some explosive spores"
      PickupSound=Sound'PickupSounds.FlakAmmoPickup'
      PickupForce="FlakAmmoPickup"

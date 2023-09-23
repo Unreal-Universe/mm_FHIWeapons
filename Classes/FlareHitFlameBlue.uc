@@ -46,7 +46,7 @@ defaultproperties
      mNumTileRows=4
      AmbientSound=Sound'GeneralAmbience.firefx9'
      LifeSpan=5.000000
-     Skins(0)=Texture'tk_FHIWeapons.FHITex.FlareFlames'
+     Skins(0)=Texture'mm_FHIWeapons.FHITex.FlareFlames'
      Style=STY_Additive
      SoundVolume=190
      SoundRadius=32.000000

@@ -24,7 +24,7 @@ defaultproperties
          Texture=Texture'EpicParticles.Flares.Sharpstreaks2'
          LifetimeRange=(Min=2.500000,Max=3.000000)
      End Object
-     Emitters(0)=SpriteEmitter'tk_FHIWeapons.GrenadePPGExplosionNEW.SpriteEmitter97'
+     Emitters(0)=SpriteEmitter'mm_FHIWeapons.GrenadePPGExplosionNEW.SpriteEmitter97'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter4
          UseDirectionAs=PTDU_Right
@@ -45,7 +45,7 @@ defaultproperties
          StartVelocityRadialRange=(Min=300.000000,Max=300.000000)
          GetVelocityDirectionFrom=PTVD_AddRadial
      End Object
-     Emitters(1)=SpriteEmitter'tk_FHIWeapons.GrenadePPGExplosionNEW.SpriteEmitter4'
+     Emitters(1)=SpriteEmitter'mm_FHIWeapons.GrenadePPGExplosionNEW.SpriteEmitter4'
 
      Begin Object Class=BeamEmitter Name=BeamEmitter7
          BeamDistanceRange=(Min=1000.000000,Max=1000.000000)
@@ -75,7 +75,7 @@ defaultproperties
          LifetimeRange=(Min=2.000000,Max=2.500000)
          StartVelocityRange=(X=(Min=1.000000,Max=1.000000))
      End Object
-     Emitters(2)=BeamEmitter'tk_FHIWeapons.GrenadePPGExplosionNEW.BeamEmitter7'
+     Emitters(2)=BeamEmitter'mm_FHIWeapons.GrenadePPGExplosionNEW.BeamEmitter7'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter0
          ProjectionNormal=(Z=0.000000)
@@ -97,13 +97,13 @@ defaultproperties
          SizeScale(1)=(RelativeTime=1.000000,RelativeSize=1.500000)
          StartSizeRange=(X=(Max=175.000000))
          InitialParticlesPerSecond=500.000000
-         Texture=Texture'tk_FHIWeapons.FHITex.Flare_E'
+         Texture=Texture'mm_FHIWeapons.FHITex.Flare_E'
          TextureUSubdivisions=1
          TextureVSubdivisions=1
          LifetimeRange=(Min=3.000000,Max=3.000000)
          StartVelocityRange=(X=(Min=-50.000000,Max=50.000000),Y=(Min=-50.000000,Max=50.000000),Z=(Min=-50.000000,Max=50.000000))
      End Object
-     Emitters(3)=SpriteEmitter'tk_FHIWeapons.GrenadePPGExplosionNEW.SpriteEmitter0'
+     Emitters(3)=SpriteEmitter'mm_FHIWeapons.GrenadePPGExplosionNEW.SpriteEmitter0'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter1
          ProjectionNormal=(Z=0.000000)
@@ -130,7 +130,7 @@ defaultproperties
          Texture=Texture'AW-2004Particles.Weapons.PlasmaStar'
          LifetimeRange=(Min=3.000000,Max=3.000000)
      End Object
-     Emitters(4)=SpriteEmitter'tk_FHIWeapons.GrenadePPGExplosionNEW.SpriteEmitter1'
+     Emitters(4)=SpriteEmitter'mm_FHIWeapons.GrenadePPGExplosionNEW.SpriteEmitter1'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter2
          UseCollision=True
@@ -156,14 +156,14 @@ defaultproperties
          StartSpinRange=(X=(Max=1.000000))
          StartSizeRange=(X=(Min=5.500000,Max=10.000000))
          InitialParticlesPerSecond=5000.000000
-         Texture=Texture'tk_FHIWeapons.FHITex.Flare_E'
+         Texture=Texture'mm_FHIWeapons.FHITex.Flare_E'
          LifetimeRange=(Min=3.000000,Max=3.500000)
          InitialDelayRange=(Min=1.150000,Max=1.150000)
          StartVelocityRange=(Y=(Min=50.000000,Max=150.000000))
          StartVelocityRadialRange=(Min=-450.000000,Max=-600.000000)
          GetVelocityDirectionFrom=PTVD_AddRadial
      End Object
-     Emitters(5)=SpriteEmitter'tk_FHIWeapons.GrenadePPGExplosionNEW.SpriteEmitter2'
+     Emitters(5)=SpriteEmitter'mm_FHIWeapons.GrenadePPGExplosionNEW.SpriteEmitter2'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter3
          UseDirectionAs=PTDU_Scale
@@ -189,7 +189,7 @@ defaultproperties
          Texture=Texture'EpicParticles.Flares.BurnFlare1'
          LifetimeRange=(Min=2.000000,Max=2.000000)
      End Object
-     Emitters(6)=SpriteEmitter'tk_FHIWeapons.GrenadePPGExplosionNEW.SpriteEmitter3'
+     Emitters(6)=SpriteEmitter'mm_FHIWeapons.GrenadePPGExplosionNEW.SpriteEmitter3'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter89
          UseColorScale=True
@@ -209,7 +209,7 @@ defaultproperties
          LifetimeRange=(Min=2.500000,Max=2.500000)
          InitialDelayRange=(Min=0.700000,Max=0.700000)
      End Object
-     Emitters(7)=SpriteEmitter'tk_FHIWeapons.GrenadePPGExplosionNEW.SpriteEmitter89'
+     Emitters(7)=SpriteEmitter'mm_FHIWeapons.GrenadePPGExplosionNEW.SpriteEmitter89'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter90
          UseColorScale=True
@@ -229,7 +229,7 @@ defaultproperties
          LifetimeRange=(Min=2.500000,Max=2.500000)
          InitialDelayRange=(Min=1.100000,Max=1.100000)
      End Object
-     Emitters(8)=SpriteEmitter'tk_FHIWeapons.GrenadePPGExplosionNEW.SpriteEmitter90'
+     Emitters(8)=SpriteEmitter'mm_FHIWeapons.GrenadePPGExplosionNEW.SpriteEmitter90'
 
      AutoDestroy=True
      bNoDelete=False

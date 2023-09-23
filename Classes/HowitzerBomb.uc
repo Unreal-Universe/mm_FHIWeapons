@@ -45,7 +45,7 @@ simulated function SpawnEffects( vector HitLocation, vector HitNormal )
 {
 	local PlayerController PC;
 
-	PlaySound(Sound'tk_FHIWeapons.FHISnd.Explode_Generic12',,2*TransientSoundVolume);
+	PlaySound(Sound'mm_FHIWeapons.FHISnd.Explode_Generic12',,2*TransientSoundVolume);
 	if (EffectIsRelevant(Location, false))
 	{
 		PC = Level.GetLocalPlayerController();
@@ -86,10 +86,10 @@ defaultproperties
      Damage=120.000000
      DamageRadius=275.000000
      MomentumTransfer=75000.000000
-     MyDamageType=Class'tk_FHIWeapons.DamTypeHowitzerBomb'
+     MyDamageType=Class'mm_FHIWeapons.DamTypeHowitzerBomb'
      ExplosionDecal=Class'XEffects.ShockAltDecal'
      DrawType=DT_StaticMesh
-     StaticMesh=StaticMesh'tk_FHIWeapons.FHIMesh.GrenadeMiniMesh'
+     StaticMesh=StaticMesh'mm_FHIWeapons.FHIMesh.GrenadeMiniMesh'
      CullDistance=4000.000000
      Physics=PHYS_Falling
      AmbientSound=Sound'WeaponSounds.BaseProjectileSounds.BFlakCannonProjectile'

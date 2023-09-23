@@ -292,11 +292,11 @@ defaultproperties
      RechargeOrigin=(X=600.000000,Y=330.000000)
      RechargeSize=(X=10.000000,Y=-180.000000)
      ChargeColor=(B=255,G=255,R=255,A=255)
-     FireModeClass(0)=Class'tk_FHIWeapons.WidowmakerFire'
+     FireModeClass(0)=Class'mm_FHIWeapons.WidowmakerFire'
      FireModeClass(1)=Class'XWeapons.SniperZoom'
      SelectAnim="Pickup"
      PutDownAnim="PutDown"
-     SelectSound=Sound'tk_FHIWeapons.FHISnd.SniperRifle_Select'
+     SelectSound=Sound'mm_FHIWeapons.FHISnd.SniperRifle_Select'
      SelectForce="SwitchToLightningGun"
      AIRating=0.690000
      CurrentRating=0.690000
@@ -311,11 +311,11 @@ defaultproperties
      CenteredYaw=-300
      InventoryGroup=9
      GroupOffset=198
-     PickupClass=Class'tk_FHIWeapons.WidowmakerPickup'
+     PickupClass=Class'mm_FHIWeapons.WidowmakerPickup'
      PlayerViewOffset=(X=-1.500000,Y=2.300000,Z=-5.000000)
      BobDamping=3.000000
-     AttachmentClass=Class'tk_FHIWeapons.WidowmakerAttachment'
-     IconMaterial=Texture'tk_FHIWeapons.FHIHud.HUDIcons'
+     AttachmentClass=Class'mm_FHIWeapons.WidowmakerAttachment'
+     IconMaterial=Texture'mm_FHIWeapons.FHIHud.HUDIcons'
      IconCoords=(X1=29,Y1=437,X2=135,Y2=463)
      ItemName="Widowmaker"
      LightType=LT_Pulse
@@ -325,6 +325,6 @@ defaultproperties
      LightBrightness=75.000000
      LightRadius=4.000000
      LightPeriod=3
-     Mesh=SkeletalMesh'tk_FHIWeapons.FHIAnim.Widowmaker_1st'
+     Mesh=SkeletalMesh'mm_FHIWeapons.FHIAnim.Widowmaker_1st'
      DrawScale=0.300000
 }

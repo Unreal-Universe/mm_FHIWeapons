@@ -8,7 +8,7 @@ static function GetHitEffects(out class<xEmitter> HitEffects[4], int VictemHealt
 
 defaultproperties
 {
-     WeaponClass=Class'tk_FHIWeapons.Widowmaker'
+     WeaponClass=Class'mm_FHIWeapons.Widowmaker'
      DeathString="%o took a bullet from %k."
      FemaleSuicide="%o shot herself."
      MaleSuicide="%o shot himself."

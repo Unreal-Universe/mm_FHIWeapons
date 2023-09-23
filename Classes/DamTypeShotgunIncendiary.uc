@@ -3,7 +3,7 @@ class DamTypeShotgunIncendiary extends WeaponDamageType
 
 defaultproperties
 {
-     WeaponClass=Class'tk_FHIWeapons.Shotgun'
+     WeaponClass=Class'mm_FHIWeapons.Shotgun'
      DeathString="%o was burned by %k's incendiary shotgun blast"
      FemaleSuicide="%o blew herself away with the Shotgun"
      MaleSuicide="%o blew himself away with the Shotgun"
