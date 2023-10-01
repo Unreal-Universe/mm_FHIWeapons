@@ -56,13 +56,13 @@ simulated function Explode(vector HitLocation, vector HitNormal)
 defaultproperties
 {
      DamageAtten=1.000000
-     AltExplosionDecal=Class'tk_FHIWeapons.ShotgunImpactScorch'
+     AltExplosionDecal=Class'mm_FHIWeapons.ShotgunImpactScorch'
      Speed=100000.000000
      MaxSpeed=100000.000000
      Damage=25.000000
      DamageRadius=55.000000
      MomentumTransfer=5000.000000
-     MyDamageType=Class'tk_FHIWeapons.DamTypeShotgunShell'
+     MyDamageType=Class'mm_FHIWeapons.DamTypeShotgunShell'
      ExplosionDecal=Class'XEffects.BulletDecal'
      DrawType=DT_StaticMesh
      StaticMesh=StaticMesh'WeaponStaticMesh.FlakChunk'

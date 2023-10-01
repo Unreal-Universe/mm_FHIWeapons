@@ -2,8 +2,8 @@ class RazorBombPickup extends FlakCannonPickup;
 
 defaultproperties
 {
-     InventoryType=Class'tk_FHIWeapons.RazorBomb'
+     InventoryType=Class'mm_FHIWeapons.RazorBomb'
      PickupMessage="You got the RazorBomb"
-     StaticMesh=StaticMesh'tk_FHIWeapons.FHIMesh.RazorBombMesh'
+     StaticMesh=StaticMesh'mm_FHIWeapons.FHIMesh.RazorBombMesh'
      DrawScale=2.000000
 }

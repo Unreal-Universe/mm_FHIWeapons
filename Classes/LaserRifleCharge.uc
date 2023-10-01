@@ -20,6 +20,6 @@ defaultproperties
      mNumTileRows=2
      bNetTemporary=False
      RelativeLocation=(X=-30.000000)
-     Skins(0)=Texture'tk_FHIWeapons.FHITex.LaserChargeTex'
+     Skins(0)=Texture'mm_FHIWeapons.FHITex.LaserChargeTex'
      Style=STY_Additive
 }

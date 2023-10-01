@@ -31,7 +31,7 @@ defaultproperties
 {
      KillerMessage=Class'XGame.SpecialKillMessage'
      Headhunter=Sound'AnnouncerMain.Headhunter'
-     WeaponClass=Class'tk_FHIWeapons.Widowmaker'
+     WeaponClass=Class'mm_FHIWeapons.Widowmaker'
      DeathString="%o took a headshot from %k's Sniper Rifle."
      FemaleSuicide="%o violated the laws of space-time and sniped herself."
      MaleSuicide="%o violated the laws of space-time and sniped himself."

@@ -148,8 +148,8 @@ function byte BestMode()
 
 defaultproperties
 {
-     FireModeClass(0)=Class'tk_FHIWeapons.TurboLaserFire'
-     FireModeClass(1)=Class'tk_FHIWeapons.TurboLaserProjFire'
+     FireModeClass(0)=Class'mm_FHIWeapons.TurboLaserFire'
+     FireModeClass(1)=Class'mm_FHIWeapons.TurboLaserProjFire'
      SelectAnim="Pickup"
      PutDownAnim="PutDown"
      SelectSound=Sound'WeaponSounds.ShockRifle.SwitchToShockRifle'
@@ -171,11 +171,11 @@ defaultproperties
      CustomCrossHairTextureName="Crosshairs.HUD.Crosshair_Cross2"
      InventoryGroup=4
      GroupOffset=10
-     PickupClass=Class'tk_FHIWeapons.TurboLaserPickup'
+     PickupClass=Class'mm_FHIWeapons.TurboLaserPickup'
      PlayerViewOffset=(X=4.000000,Y=8.000000,Z=-2.000000)
      PlayerViewPivot=(Pitch=-1000)
      BobDamping=3.000000
-     AttachmentClass=Class'tk_FHIWeapons.TurboLaserAttachment'
+     AttachmentClass=Class'mm_FHIWeapons.TurboLaserAttachment'
      IconMaterial=Texture'HUDContent.Generic.HUD'
      IconCoords=(X1=250,Y1=110,X2=330,Y2=145)
      ItemName="Turbo Laser"
@@ -189,5 +189,5 @@ defaultproperties
      Mesh=SkeletalMesh'NewWeapons2004.ShockRifle'
      DrawScale=0.700000
      Skins(0)=Texture'UT2004Weapons.NewWeaps.ShockRifleTex0'
-     Skins(1)=FinalBlend'tk_FHIWeapons.FHIMat.TurboLaserAmmoFB'
+     Skins(1)=FinalBlend'mm_FHIWeapons.FHIMat.TurboLaserAmmoFB'
 }

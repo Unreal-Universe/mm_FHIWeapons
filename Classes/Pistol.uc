@@ -298,15 +298,15 @@ function bool RecommendRangedAttack()
 
 defaultproperties
 {
-     FireModeClass(0)=Class'tk_FHIWeapons.PistolFire'
-     FireModeClass(1)=Class'tk_FHIWeapons.PistolProjFire'
+     FireModeClass(0)=Class'mm_FHIWeapons.PistolFire'
+     FireModeClass(1)=Class'mm_FHIWeapons.PistolProjFire'
      SelectAnim="Pickup"
      PutDownAnim="PutDown"
      SelectAnimRate=0.750000
      PutDownAnimRate=0.780000
      PutDownTime=0.580000
      BringUpTime=0.600000
-     SelectSound=Sound'tk_FHIWeapons.FHISnd.Pistol_Select'
+     SelectSound=Sound'mm_FHIWeapons.FHISnd.Pistol_Select'
      SelectForce="NewSniperLoad"
      AIRating=0.690000
      CurrentRating=0.690000
@@ -324,11 +324,11 @@ defaultproperties
      CustomCrossHairTextureName="Crosshairs.HUD.Crosshair_Cross1"
      InventoryGroup=5
      GroupOffset=22
-     PickupClass=Class'tk_FHIWeapons.PistolPickup'
+     PickupClass=Class'mm_FHIWeapons.PistolPickup'
      PlayerViewOffset=(X=20.000000,Y=9.300000,Z=-11.000000)
      BobDamping=3.000000
-     AttachmentClass=Class'tk_FHIWeapons.PistolAttachment'
-     IconMaterial=Texture'tk_FHIWeapons.FHIHud.HUDIcons'
+     AttachmentClass=Class'mm_FHIWeapons.PistolAttachment'
+     IconMaterial=Texture'mm_FHIWeapons.FHIHud.HUDIcons'
      IconCoords=(X1=51,Y1=108,X2=121,Y2=147)
      ItemName="Pistol"
      LightType=LT_Steady
@@ -339,6 +339,6 @@ defaultproperties
      LightRadius=5.000000
      LightPeriod=3
      CullDistance=5000.000000
-     Mesh=SkeletalMesh'tk_FHIWeapons.FHIAnim.Pistol_1st'
+     Mesh=SkeletalMesh'mm_FHIWeapons.FHIAnim.Pistol_1st'
      DrawScale=0.810000
 }

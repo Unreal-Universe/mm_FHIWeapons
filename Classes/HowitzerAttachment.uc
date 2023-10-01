@@ -36,7 +36,7 @@ simulated event ThirdPersonEffects()
 
 defaultproperties
 {
-     mMuzFlashClass=Class'tk_FHIWeapons.HowitzerMuzFlash3rd'
+     mMuzFlashClass=Class'mm_FHIWeapons.HowitzerMuzFlash3rd'
      bHeavy=True
      LightType=LT_Steady
      LightEffect=LE_NonIncidence
@@ -44,6 +44,6 @@ defaultproperties
      LightSaturation=150
      LightBrightness=255.000000
      LightRadius=4.000000
-     Mesh=SkeletalMesh'tk_FHIWeapons.FHIAnim.Howitzer_3rd'
+     Mesh=SkeletalMesh'mm_FHIWeapons.FHIAnim.Howitzer_3rd'
      DrawScale=0.690000
 }

@@ -3,7 +3,7 @@ class DamTypeGrenadeConc extends WeaponDamageType
 
 defaultproperties
 {
-     WeaponClass=Class'tk_FHIWeapons.GrenadeLauncher'
+     WeaponClass=Class'mm_FHIWeapons.GrenadeLauncher'
      DeathString="%o was concussed by %k's grenade"
      FemaleSuicide="%o was concussed by her own grenade"
      MaleSuicide="%o was concussed by his own grenade"

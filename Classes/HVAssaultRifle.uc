@@ -199,7 +199,7 @@ simulated function NewDrawWeaponInfo(Canvas Canvas, float YPos)
 	for(i = 0; i < Count; i++)
 	{
 		Canvas.SetPos(Canvas.ClipX - (0.5*i+1) * ScaleFactor, YPos);
-		Canvas.DrawTile( Material'tk_FHIWeapons.FHIHud.HUDIcons', ScaleFactor, ScaleFactor, 283, 199, 356, 269);
+		Canvas.DrawTile( Material'mm_FHIWeapons.FHIHud.HUDIcons', ScaleFactor, ScaleFactor, 283, 199, 356, 269);
 	}
 
 	if (AmmoAmount(1) > 8)
@@ -208,7 +208,7 @@ simulated function NewDrawWeaponInfo(Canvas Canvas, float YPos)
 		for(i = 8; i < Count; i++)
 		{
 			Canvas.SetPos(Canvas.ClipX - (0.5*(i-8)+1) * ScaleFactor, YPos - ScaleFactor);
-			Canvas.DrawTile( Material'tk_FHIWeapons.FHIHud.HUDIcons', ScaleFactor, ScaleFactor, 283, 199, 356, 269);
+			Canvas.DrawTile( Material'mm_FHIWeapons.FHIHud.HUDIcons', ScaleFactor, ScaleFactor, 283, 199, 356, 269);
 		}
 	}
 }
@@ -297,8 +297,8 @@ function float GetAIRating()
 
 defaultproperties
 {
-     FireModeClass(0)=Class'tk_FHIWeapons.HVAssaultFire'
-     FireModeClass(1)=Class'tk_FHIWeapons.HVBombFire'
+     FireModeClass(0)=Class'mm_FHIWeapons.HVAssaultFire'
+     FireModeClass(1)=Class'mm_FHIWeapons.HVBombFire'
      PutDownAnim="PutDown"
      SelectSound=Sound'WeaponSounds.AssaultRifle.SwitchToAssaultRifle'
      SelectForce="SwitchToAssaultRifle"
@@ -318,11 +318,11 @@ defaultproperties
      CustomCrossHairTextureName="Crosshairs.HUD.Crosshair_Cross5"
      InventoryGroup=2
      GroupOffset=10
-     PickupClass=Class'tk_FHIWeapons.HVAssaultRiflePickup'
+     PickupClass=Class'mm_FHIWeapons.HVAssaultRiflePickup'
      PlayerViewOffset=(X=4.000000,Y=5.500000,Z=-6.000000)
      PlayerViewPivot=(Pitch=400)
      BobDamping=3.000000
-     AttachmentClass=Class'tk_FHIWeapons.HVAssaultAttachment'
+     AttachmentClass=Class'mm_FHIWeapons.HVAssaultAttachment'
      IconMaterial=Texture'HUDContent.Generic.HUD'
      IconCoords=(X1=245,Y1=39,X2=329,Y2=79)
      ItemName="HV Assault Rifle"

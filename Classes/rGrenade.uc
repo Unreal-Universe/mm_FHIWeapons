@@ -122,7 +122,7 @@ simulated function BlowUp(vector HitLocation)
 simulated function Explode(vector HitLocation, vector HitNormal)
 {
     BlowUp(HitLocation);
-	PlaySound(Sound'tk_FHIWeapons.FHISnd.Explode_Generic02',,2.5*TransientSoundVolume);
+	PlaySound(Sound'mm_FHIWeapons.FHISnd.Explode_Generic02',,2.5*TransientSoundVolume);
     if ( EffectIsRelevant(Location,false) )
     {
         Spawn(class'NewExplosionC',,, HitLocation, rotator(vect(0,0,1)));
@@ -143,7 +143,7 @@ defaultproperties
      DamageRadius=240.000000
      MomentumTransfer=75000.000000
      MyDamageType=Class'XWeapons.DamTypeAssaultGrenade'
-     ImpactSound=Sound'tk_FHIWeapons.FHISnd.Impact_Razor'
+     ImpactSound=Sound'mm_FHIWeapons.FHISnd.Impact_Razor'
      ExplosionDecal=Class'XEffects.RocketMark'
      DrawType=DT_StaticMesh
      StaticMesh=StaticMesh'WeaponStaticMesh.GrenadeMesh'

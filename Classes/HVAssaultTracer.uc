@@ -58,7 +58,7 @@ defaultproperties
          LifetimeRange=(Min=0.100000,Max=0.100000)
          StartVelocityRange=(X=(Min=10000.000000,Max=10000.000000))
      End Object
-     Emitters(0)=SpriteEmitter'tk_FHIWeapons.HVAssaultTracer.SpriteEmitter13'
+     Emitters(0)=SpriteEmitter'mm_FHIWeapons.HVAssaultTracer.SpriteEmitter13'
 
      bNoDelete=False
      bHardAttach=True

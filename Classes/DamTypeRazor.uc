@@ -3,7 +3,7 @@ class DamTypeRazor extends WeaponDamageType
 
 defaultproperties
 {
-     WeaponClass=Class'tk_FHIWeapons.RazorBomb'
+     WeaponClass=Class'mm_FHIWeapons.RazorBomb'
      DeathString="%o was shredded by %k's Razor"
      FemaleSuicide="%o minced herself!"
      MaleSuicide="%o minced himself!"

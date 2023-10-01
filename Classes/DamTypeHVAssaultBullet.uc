@@ -3,7 +3,7 @@ class DamTypeHVAssaultBullet extends WeaponDamageType
 
 defaultproperties
 {
-     WeaponClass=Class'tk_FHIWeapons.HVAssaultRifle'
+     WeaponClass=Class'mm_FHIWeapons.HVAssaultRifle'
      DeathString="%o was turned into Swiss cheese by %k's HV Assault Rifle"
      FemaleSuicide="%o killed her own dumb self"
      MaleSuicide="%o killed his own dumb self"

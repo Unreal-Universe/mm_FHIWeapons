@@ -16,12 +16,12 @@ defaultproperties
      FireSound=Sound'WeaponSounds.BaseFiringSounds.BMiniGunAltFire'
      FireForce="ShockRifleAltFire"
      FireRate=0.850000
-     AmmoClass=Class'tk_FHIWeapons.PistolAmmo'
+     AmmoClass=Class'mm_FHIWeapons.PistolAmmo'
      AmmoPerFire=1
      ShakeRotMag=(X=60.000000,Y=20.000000)
      ShakeRotRate=(X=1000.000000,Y=1000.000000)
      ShakeRotTime=2.000000
-     ProjectileClass=Class'tk_FHIWeapons.PistolProj'
+     ProjectileClass=Class'mm_FHIWeapons.PistolProj'
      BotRefireRate=0.850000
      FlashEmitterClass=Class'XEffects.AssaultMuzFlash1st'
 }

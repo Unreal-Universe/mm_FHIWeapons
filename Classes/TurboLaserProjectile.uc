@@ -203,19 +203,19 @@ State WaitForCombo
 
 defaultproperties
 {
-     ComboSound=Sound'tk_FHIWeapons.FHISnd.TurboLaser_Combo'
+     ComboSound=Sound'mm_FHIWeapons.FHISnd.TurboLaser_Combo'
      ComboDamage=300.000000
      ComboRadius=410.000000
      ComboMomentumTransfer=150000.000000
      ComboAmmoCost=2
-     ComboDamageType=Class'tk_FHIWeapons.DamTypeTurboBeam'
+     ComboDamageType=Class'mm_FHIWeapons.DamTypeTurboBeam'
      Speed=1450.000000
      MaxSpeed=1450.000000
      bSwitchToZeroCollision=True
      Damage=57.000000
      DamageRadius=95.000000
      MomentumTransfer=5000.000000
-     MyDamageType=Class'tk_FHIWeapons.DamTypeTurboPlasma'
+     MyDamageType=Class'mm_FHIWeapons.DamTypeTurboPlasma'
      ImpactSound=Sound'WeaponSounds.ShockRifle.ShockRifleExplosion'
      ExplosionDecal=Class'XEffects.ShockAltDecal'
      LightType=LT_Steady
@@ -229,7 +229,7 @@ defaultproperties
      bNetTemporary=False
      AmbientSound=Sound'WeaponSounds.ShockRifle.ShockRifleProjectile'
      LifeSpan=10.000000
-     Texture=Texture'tk_FHIWeapons.FHITex.Flare_H'
+     Texture=Texture'mm_FHIWeapons.FHITex.Flare_H'
      DrawScale=0.450000
      Style=STY_Translucent
      SoundVolume=255

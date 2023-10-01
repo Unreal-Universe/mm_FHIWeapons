@@ -25,10 +25,10 @@ defaultproperties
      mSpinRange(0)=-100.000000
      mSpinRange(1)=100.000000
      mAttenFunc=ATF_None
-     mMeshNodes(0)=StaticMesh'tk_FHIWeapons.FHIMesh.ShotgunBullet'
+     mMeshNodes(0)=StaticMesh'mm_FHIWeapons.FHIMesh.ShotgunBullet'
      mColMakeSound=True
      bHighDetail=True
      bNetTemporary=False
      DrawScale=0.200000
-     Skins(0)=Texture'tk_FHIWeapons.FHITex.ShotgunShellTex'
+     Skins(0)=Texture'mm_FHIWeapons.FHITex.ShotgunShellTex'
 }

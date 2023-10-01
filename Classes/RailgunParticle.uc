@@ -111,7 +111,7 @@ defaultproperties
      MaxSpeed=3700.000000
      Damage=65.000000
      MomentumTransfer=3000.000000
-     MyDamageType=Class'tk_FHIWeapons.DamTypeRailBomb'
+     MyDamageType=Class'mm_FHIWeapons.DamTypeRailBomb'
      DrawType=DT_StaticMesh
      StaticMesh=StaticMesh'WeaponStaticMesh.FlakChunk'
      LifeSpan=4.700000

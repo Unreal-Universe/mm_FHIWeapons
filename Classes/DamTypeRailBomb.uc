@@ -2,7 +2,7 @@ class DamTypeRailBomb extends WeaponDamageType;
 
 defaultproperties
 {
-     WeaponClass=Class'tk_FHIWeapons.Railgun'
+     WeaponClass=Class'mm_FHIWeapons.Railgun'
      DeathString="%o was nailed by %k's particle bomb"
      FemaleSuicide="%o nailed herself with a particle bomb"
      MaleSuicide="%o nailed himself with a particle bomb"

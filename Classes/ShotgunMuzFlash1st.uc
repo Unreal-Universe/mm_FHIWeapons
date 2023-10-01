@@ -6,7 +6,7 @@ defaultproperties
      mTileAnimation=False
      mNumTileColumns=1
      mNumTileRows=1
-     mMeshNodes(0)=StaticMesh'tk_FHIWeapons.FHIMesh.ShotgunMuzFlashMesh'
+     mMeshNodes(0)=StaticMesh'mm_FHIWeapons.FHIMesh.ShotgunMuzFlashMesh'
      DrawScale=0.400000
-     Skins(0)=FinalBlend'tk_FHIWeapons.FHIMat.ShotgunMuzFlash_FB'
+     Skins(0)=FinalBlend'mm_FHIWeapons.FHIMat.ShotgunMuzFlash_FB'
 }

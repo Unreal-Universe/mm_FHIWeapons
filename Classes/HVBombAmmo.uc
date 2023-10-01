@@ -11,7 +11,7 @@ defaultproperties
 {
      MaxAmmo=12
      InitialAmount=6
-     PickupClass=Class'tk_FHIWeapons.HVAssaultAmmoPickup'
+     PickupClass=Class'mm_FHIWeapons.HVAssaultAmmoPickup'
      ItemName="AG Bombs"
      bNetNotify=True
 }

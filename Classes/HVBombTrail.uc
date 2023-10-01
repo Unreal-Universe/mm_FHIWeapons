@@ -20,6 +20,6 @@ defaultproperties
      mColorRange(1)=(B=170,G=170,R=170)
      mAttenKa=0.000000
      Physics=PHYS_Trailer
-     Skins(0)=Texture'tk_FHIWeapons.FHITex.HVBombTrailTex'
+     Skins(0)=Texture'mm_FHIWeapons.FHITex.HVBombTrailTex'
      Style=STY_Alpha
 }

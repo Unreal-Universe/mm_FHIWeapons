@@ -23,7 +23,7 @@ defaultproperties
      FireSound=SoundGroup'WeaponSounds.BioRifle.BioRifleFire'
      FireForce="BioRifleFire"
      FireRate=2.350000
-     AmmoClass=Class'tk_FHIWeapons.SporeAmmo'
+     AmmoClass=Class'mm_FHIWeapons.SporeAmmo'
      AmmoPerFire=1
      ShakeRotMag=(X=70.000000)
      ShakeRotRate=(X=1000.000000)
@@ -31,7 +31,7 @@ defaultproperties
      ShakeOffsetMag=(Z=-2.000000)
      ShakeOffsetRate=(Z=1000.000000)
      ShakeOffsetTime=1.800000
-     ProjectileClass=Class'tk_FHIWeapons.SporeSuper'
+     ProjectileClass=Class'mm_FHIWeapons.SporeSuper'
      BotRefireRate=0.800000
      FlashEmitterClass=Class'XEffects.BioMuzFlash1st'
 }

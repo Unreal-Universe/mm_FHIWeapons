@@ -19,6 +19,6 @@ defaultproperties
      mGrowthRate=260.000000
      mAttenKa=0.000000
      bSuperHighDetail=True
-     Skins(0)=Texture'tk_FHIWeapons.FHITex.Flare_I'
+     Skins(0)=Texture'mm_FHIWeapons.FHITex.Flare_I'
      Style=STY_Alpha
 }

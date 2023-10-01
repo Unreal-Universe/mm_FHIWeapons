@@ -2,9 +2,9 @@ class ShotgunPickup extends FlakCannonPickup;
 
 defaultproperties
 {
-     InventoryType=Class'tk_FHIWeapons.Shotgun'
+     InventoryType=Class'mm_FHIWeapons.Shotgun'
      PickupMessage="You got the Shotgun."
-     PickupSound=Sound'tk_FHIWeapons.FHISnd.Shotgun_Pickup'
-     StaticMesh=StaticMesh'tk_FHIWeapons.FHIMesh.ShotgunMesh'
+     PickupSound=Sound'mm_FHIWeapons.FHISnd.Shotgun_Pickup'
+     StaticMesh=StaticMesh'mm_FHIWeapons.FHIMesh.ShotgunMesh'
      DrawScale=0.650000
 }

@@ -3,7 +3,7 @@ class DamTypeAGBomb extends WeaponDamageType
 
 defaultproperties
 {
-     WeaponClass=Class'tk_FHIWeapons.HVAssaultRifle'
+     WeaponClass=Class'mm_FHIWeapons.HVAssaultRifle'
      DeathString="%o was blown to bits by %k's AG Bomb"
      FemaleSuicide="%o blew herself up with an AG Bomb!"
      MaleSuicide="%o blew himself up with an AG Bomb!"

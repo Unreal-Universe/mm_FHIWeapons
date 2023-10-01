@@ -3,7 +3,7 @@ class DamTypeMiniRocket extends WeaponDamageType
 
 defaultproperties
 {
-     WeaponClass=Class'tk_FHIWeapons.MiniRocketLauncher'
+     WeaponClass=Class'mm_FHIWeapons.MiniRocketLauncher'
      DeathString="%o was blown sky high by %k's mini-rockets"
      FemaleSuicide="%o blew herself up with a mini-rocket"
      MaleSuicide="%o blew himself up with a mini-rocket"

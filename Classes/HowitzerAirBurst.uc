@@ -16,16 +16,16 @@ defaultproperties
      TransientSoundVolume=1.000000
      FireEndAnim=
      FireAnimRate=0.600000
-     FireSound=Sound'tk_FHIWeapons.FHISnd.Howitzer_Fire'
+     FireSound=Sound'mm_FHIWeapons.FHISnd.Howitzer_Fire'
      FireForce="FlakCannonAltFire"
      FireRate=1.500000
-     AmmoClass=Class'tk_FHIWeapons.HowitzerAmmo'
+     AmmoClass=Class'mm_FHIWeapons.HowitzerAmmo'
      AmmoPerFire=1
      ShakeRotTime=2.000000
      ShakeOffsetMag=(X=-20.000000)
      ShakeOffsetRate=(X=-1000.000000)
      ShakeOffsetTime=2.000000
-     ProjectileClass=Class'tk_FHIWeapons.HowitzerAirBurstShell'
+     ProjectileClass=Class'mm_FHIWeapons.HowitzerAirBurstShell'
      BotRefireRate=0.500000
      WarnTargetPct=0.900000
 }

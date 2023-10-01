@@ -179,7 +179,7 @@ state Dying
 	}
 
 Begin:
-	PlaySound(sound'tk_FHIWeapons.FHISnd.Explode_GrenadeConc');
+	PlaySound(sound'mm_FHIWeapons.FHISnd.Explode_GrenadeConc');
 	HurtRadius(Damage, DamageRadius*0.675, MyDamageType, MomentumTransfer, Location);
 	Sleep(0.2);
 	HurtRadius(Damage, DamageRadius*0.850, MyDamageType, MomentumTransfer, Location);
@@ -204,10 +204,10 @@ defaultproperties
      Damage=95.000000
      DamageRadius=575.000000
      MomentumTransfer=175000.000000
-     MyDamageType=Class'tk_FHIWeapons.DamTypeGrenadeConc'
+     MyDamageType=Class'mm_FHIWeapons.DamTypeGrenadeConc'
      ImpactSound=ProceduralSound'WeaponSounds.PGrenFloor1.P1GrenFloor1'
      DrawType=DT_StaticMesh
-     StaticMesh=StaticMesh'tk_FHIWeapons.FHIMesh.GrenadeMiniMesh'
+     StaticMesh=StaticMesh'mm_FHIWeapons.FHIMesh.GrenadeMiniMesh'
      bNetTemporary=False
      Physics=PHYS_Falling
      DrawScale=0.750000

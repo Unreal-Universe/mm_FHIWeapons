@@ -8,7 +8,7 @@ static function GetHitEffects(out class<xEmitter> HitEffects[4], int VictemHealt
 
 defaultproperties
 {
-     WeaponClass=Class'tk_FHIWeapons.Railgun'
+     WeaponClass=Class'mm_FHIWeapons.Railgun'
      DeathString="%o went over %k's particle limit"
      FemaleSuicide="%o went over her own particle limit"
      MaleSuicide="%o went over his own particle limit"

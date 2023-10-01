@@ -163,14 +163,14 @@ defaultproperties
      FlockStiffness=-40.000000
      FlockMaxForce=900.000000
      FlockCurlForce=850.000000
-     ImpactSounds(0)=Sound'tk_FHIWeapons.FHISnd.Explode_Generic03'
-     ImpactSounds(1)=Sound'tk_FHIWeapons.FHISnd.Explode_Generic05'
-     ImpactSounds(2)=Sound'tk_FHIWeapons.FHISnd.Explode_Generic09'
+     ImpactSounds(0)=Sound'mm_FHIWeapons.FHISnd.Explode_Generic03'
+     ImpactSounds(1)=Sound'mm_FHIWeapons.FHISnd.Explode_Generic05'
+     ImpactSounds(2)=Sound'mm_FHIWeapons.FHISnd.Explode_Generic09'
      Speed=2000.000000
      MaxSpeed=2500.000000
      Damage=100.000000
      MomentumTransfer=50000.000000
-     MyDamageType=Class'tk_FHIWeapons.DamTypeFlareMissile'
+     MyDamageType=Class'mm_FHIWeapons.DamTypeFlareMissile'
      ExplosionDecal=Class'XEffects.RocketMark'
      LightType=LT_Steady
      LightEffect=LE_QuadraticNonIncidence
@@ -179,7 +179,7 @@ defaultproperties
      LightBrightness=255.000000
      LightRadius=5.000000
      DrawType=DT_StaticMesh
-     StaticMesh=StaticMesh'tk_FHIWeapons.FHIMesh.FlareMesh'
+     StaticMesh=StaticMesh'mm_FHIWeapons.FHIMesh.FlareMesh'
      bDynamicLight=True
      AmbientSound=Sound'WeaponSounds.RocketLauncher.RocketLauncherProjectile'
      LifeSpan=16.000000

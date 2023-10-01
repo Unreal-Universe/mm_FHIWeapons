@@ -162,7 +162,7 @@ Begin:
 	Sleep(0.15);
 	RotateBarrel();
 	Sleep(0.07);
-	PlayOwnedSound(Sound'tk_FHIWeapons.FHISnd.RL_PickupAmmo', SLOT_None,,,,,false);
+	PlayOwnedSound(Sound'mm_FHIWeapons.FHISnd.RL_PickupAmmo', SLOT_None,,,,,false);
 	ClientPlayForceFeedback("RocketLauncherLoad");
 	Sleep(0.28);
 	Plunge();
@@ -251,8 +251,8 @@ function byte BestMode()
 
 defaultproperties
 {
-     FireModeClass(0)=Class'tk_FHIWeapons.FlareFire'
-     FireModeClass(1)=Class'tk_FHIWeapons.FlareMultiFire'
+     FireModeClass(0)=Class'mm_FHIWeapons.FlareFire'
+     FireModeClass(1)=Class'mm_FHIWeapons.FlareMultiFire'
      SelectAnim="Pickup"
      PutDownAnim="PutDown"
      IdleAnimRate=0.500000
@@ -273,15 +273,15 @@ defaultproperties
      CustomCrossHairTextureName="Crosshairs.HUD.Crosshair_Triad2"
      InventoryGroup=8
      GroupOffset=10
-     PickupClass=Class'tk_FHIWeapons.FlareLauncherPickup'
+     PickupClass=Class'mm_FHIWeapons.FlareLauncherPickup'
      PlayerViewOffset=(Y=8.000000)
      PlayerViewPivot=(Yaw=500,Roll=1000)
      BobDamping=2.990000
-     AttachmentClass=Class'tk_FHIWeapons.FlareAttachment'
-     IconMaterial=Texture'tk_FHIWeapons.FHIHud.HUDIcons'
+     AttachmentClass=Class'mm_FHIWeapons.FlareAttachment'
+     IconMaterial=Texture'mm_FHIWeapons.FHIHud.HUDIcons'
      IconCoords=(X1=44,Y1=306,X2=134,Y2=343)
      ItemName="Flare Launcher"
      Mesh=SkeletalMesh'Weapons.RocketLauncher_1st'
-     Skins(0)=Texture'tk_FHIWeapons.FHITex.FlareLauncherTex'
+     Skins(0)=Texture'mm_FHIWeapons.FHITex.FlareLauncherTex'
      HighDetailOverlay=Combiner'UT2004Weapons.WeaponSpecMap2'
 }

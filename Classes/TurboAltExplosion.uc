@@ -45,5 +45,5 @@ defaultproperties
      bAttenByLife=True
      bDynamicLight=True
      LifeSpan=2.000000
-     Skins(0)=FinalBlend'tk_FHIWeapons.FHIMat.TurboLaserEnergy_FB'
+     Skins(0)=FinalBlend'mm_FHIWeapons.FHIMat.TurboLaserEnergy_FB'
 }

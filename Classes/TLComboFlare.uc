@@ -17,6 +17,6 @@ defaultproperties
      mSizeRange(1)=155.000000
      mGrowthRate=260.000000
      LifeSpan=2.000000
-     Skins(0)=Texture'tk_FHIWeapons.FHITex.Flare_H'
+     Skins(0)=Texture'mm_FHIWeapons.FHITex.Flare_H'
      Style=STY_Translucent
 }

@@ -125,9 +125,9 @@ defaultproperties
      Damage=40.000000
      DamageRadius=50.000000
      MomentumTransfer=5000.000000
-     MyDamageType=Class'tk_FHIWeapons.DamTypeRailDart'
+     MyDamageType=Class'mm_FHIWeapons.DamTypeRailDart'
      ImpactSound=SoundGroup'WeaponSounds.Translocator.TranslocatorFire'
-     ExplosionDecal=Class'tk_FHIWeapons.RailDecal'
+     ExplosionDecal=Class'mm_FHIWeapons.RailDecal'
      LightType=LT_Steady
      LightEffect=LE_QuadraticNonIncidence
      LightHue=210
@@ -138,9 +138,9 @@ defaultproperties
      bDynamicLight=True
      bNetTemporary=False
      bOnlyDirtyReplication=True
-     AmbientSound=Sound'tk_FHIWeapons.FHISnd.LaserAmbient5'
+     AmbientSound=Sound'mm_FHIWeapons.FHISnd.LaserAmbient5'
      LifeSpan=10.000000
-     Texture=Texture'tk_FHIWeapons.FHITex.Flare_B'
+     Texture=Texture'mm_FHIWeapons.FHITex.Flare_B'
      DrawScale=0.050000
      Style=STY_Translucent
      SoundVolume=255

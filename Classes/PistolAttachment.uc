@@ -155,6 +155,6 @@ defaultproperties
      LightBrightness=255.000000
      LightRadius=5.000000
      LightPeriod=3
-     Mesh=SkeletalMesh'tk_FHIWeapons.FHIAnim.Pistol_3rd'
+     Mesh=SkeletalMesh'mm_FHIWeapons.FHIAnim.Pistol_3rd'
      DrawScale=0.600000
 }

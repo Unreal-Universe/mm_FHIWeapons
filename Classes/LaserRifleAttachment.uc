@@ -52,7 +52,7 @@ simulated event ThirdPersonEffects()
 
 defaultproperties
 {
-     mMuzFlashClass=Class'tk_FHIWeapons.LaserRifleMuzFlash3rd'
+     mMuzFlashClass=Class'mm_FHIWeapons.LaserRifleMuzFlash3rd'
      LightType=LT_Steady
      LightEffect=LE_NonIncidence
      LightHue=85
@@ -60,5 +60,5 @@ defaultproperties
      LightRadius=4.000000
      LightPeriod=3
      Mesh=SkeletalMesh'Weapons.Sniper_3rd'
-     Skins(0)=Texture'tk_FHIWeapons.FHITex.LaserRifleTex'
+     Skins(0)=Texture'mm_FHIWeapons.FHITex.LaserRifleTex'
 }

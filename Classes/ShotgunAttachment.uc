@@ -54,8 +54,8 @@ simulated event ThirdPersonEffects()
 
 defaultproperties
 {
-     mMuzClass=Class'tk_FHIWeapons.ShotgunMuzFlash3rd'
-     mShellCaseEmitterClass=Class'tk_FHIWeapons.ShotgunShellSpewer'
-     Mesh=SkeletalMesh'tk_FHIWeapons.FHIAnim.CombatShotgun_3rd'
+     mMuzClass=Class'mm_FHIWeapons.ShotgunMuzFlash3rd'
+     mShellCaseEmitterClass=Class'mm_FHIWeapons.ShotgunShellSpewer'
+     Mesh=SkeletalMesh'mm_FHIWeapons.FHIAnim.CombatShotgun_3rd'
      DrawScale=0.470000
 }

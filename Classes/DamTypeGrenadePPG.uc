@@ -3,7 +3,7 @@ class DamTypeGrenadePPG extends WeaponDamageType
 
 defaultproperties
 {
-     WeaponClass=Class'tk_FHIWeapons.GrenadeLauncher'
+     WeaponClass=Class'mm_FHIWeapons.GrenadeLauncher'
      DeathString="%o was turned into vapor by %k's PPG"
      FemaleSuicide="%o was turned into vapor by her own PPG"
      MaleSuicide="%o was turned into vapor by his own PPG"

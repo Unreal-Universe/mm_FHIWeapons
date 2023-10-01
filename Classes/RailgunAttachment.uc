@@ -50,5 +50,5 @@ defaultproperties
      Mesh=SkeletalMesh'NewWeapons2004.NewLinkGun_3rd'
      RelativeLocation=(X=15.000000,Y=-5.000000,Z=-7.000000)
      RelativeRotation=(Pitch=32768)
-     Skins(0)=Shader'tk_FHIWeapons.FHIShaders.RailgunShader'
+     Skins(0)=Shader'mm_FHIWeapons.FHIShaders.RailgunShader'
 }

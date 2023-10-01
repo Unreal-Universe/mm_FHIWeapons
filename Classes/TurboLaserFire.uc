@@ -54,20 +54,20 @@ function SpawnBeamEffect(Vector Start, Rotator Dir, Vector HitLocation, Vector H
 
 defaultproperties
 {
-     TLBeamEffectClass=Class'tk_FHIWeapons.TurboBeamEffect'
-     DamageType=Class'tk_FHIWeapons.DamTypeTurboBeam'
+     TLBeamEffectClass=Class'mm_FHIWeapons.TurboBeamEffect'
+     DamageType=Class'mm_FHIWeapons.DamTypeTurboBeam'
      DamageMin=45
      DamageMax=45
      TraceRange=17000.000000
      Momentum=10000.000000
      bReflective=True
      TransientSoundVolume=1.000000
-     FireSound=Sound'tk_FHIWeapons.FHISnd.TurboLaser_Fire'
+     FireSound=Sound'mm_FHIWeapons.FHISnd.TurboLaser_Fire'
      FireForce="ShockRifleFire"
      FireRate=0.300000
-     AmmoClass=Class'tk_FHIWeapons.TurboLaserAmmo'
+     AmmoClass=Class'mm_FHIWeapons.TurboLaserAmmo'
      AmmoPerFire=1
      BotRefireRate=0.700000
-     FlashEmitterClass=Class'tk_FHIWeapons.TurboLaserBeamMuzFlash'
+     FlashEmitterClass=Class'mm_FHIWeapons.TurboLaserBeamMuzFlash'
      aimerror=100.000000
 }

@@ -3,7 +3,7 @@ class RailBombAltExplosion extends Emitter;
 defaultproperties
 {
      Begin Object Class=MeshEmitter Name=MeshEmitter5
-         StaticMesh=StaticMesh'tk_FHIWeapons.FHIMesh.RailBombDebris'
+         StaticMesh=StaticMesh'mm_FHIWeapons.FHIMesh.RailBombDebris'
          UseMeshBlendMode=False
          UseParticleColor=True
          RespawnDeadParticles=False
@@ -19,10 +19,10 @@ defaultproperties
          LifetimeRange=(Min=1.000000,Max=1.000000)
          StartVelocityRange=(X=(Min=-100.000000,Max=100.000000),Y=(Min=-100.000000,Max=100.000000),Z=(Min=700.000000,Max=800.000000))
      End Object
-     Emitters(0)=MeshEmitter'tk_FHIWeapons.RailBombAltExplosion.MeshEmitter5'
+     Emitters(0)=MeshEmitter'mm_FHIWeapons.RailBombAltExplosion.MeshEmitter5'
 
      Begin Object Class=MeshEmitter Name=MeshEmitter6
-         StaticMesh=StaticMesh'tk_FHIWeapons.FHIMesh.RailBombDebris'
+         StaticMesh=StaticMesh'mm_FHIWeapons.FHIMesh.RailBombDebris'
          UseParticleColor=True
          RespawnDeadParticles=False
          SpinParticles=True
@@ -40,10 +40,10 @@ defaultproperties
          VelocityLossRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
          GetVelocityDirectionFrom=PTVD_AddRadial
      End Object
-     Emitters(1)=MeshEmitter'tk_FHIWeapons.RailBombAltExplosion.MeshEmitter6'
+     Emitters(1)=MeshEmitter'mm_FHIWeapons.RailBombAltExplosion.MeshEmitter6'
 
      Begin Object Class=MeshEmitter Name=MeshEmitter7
-         StaticMesh=StaticMesh'tk_FHIWeapons.FHIMesh.RailBombDebris'
+         StaticMesh=StaticMesh'mm_FHIWeapons.FHIMesh.RailBombDebris'
          RenderTwoSided=True
          UseParticleColor=True
          RespawnDeadParticles=False
@@ -64,7 +64,7 @@ defaultproperties
          VelocityLossRange=(X=(Min=0.500000,Max=1.000000),Y=(Min=0.500000,Max=1.000000),Z=(Min=0.500000,Max=1.000000))
          GetVelocityDirectionFrom=PTVD_AddRadial
      End Object
-     Emitters(2)=MeshEmitter'tk_FHIWeapons.RailBombAltExplosion.MeshEmitter7'
+     Emitters(2)=MeshEmitter'mm_FHIWeapons.RailBombAltExplosion.MeshEmitter7'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter0
          UseColorScale=True
@@ -104,7 +104,7 @@ defaultproperties
          VelocityScale(1)=(RelativeTime=0.300000,RelativeVelocity=(X=0.100000,Y=0.100000,Z=0.100000))
          VelocityScale(2)=(RelativeTime=1.000000)
      End Object
-     Emitters(3)=SpriteEmitter'tk_FHIWeapons.RailBombAltExplosion.SpriteEmitter0'
+     Emitters(3)=SpriteEmitter'mm_FHIWeapons.RailBombAltExplosion.SpriteEmitter0'
 
      AutoDestroy=True
      bNoDelete=False

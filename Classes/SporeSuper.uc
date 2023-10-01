@@ -28,8 +28,8 @@ simulated function Destroyed()
 {
     if ( !bNoFX && EffectIsRelevant(Location,false) )
     {
-        Spawn(class'tk_FHIWeapons.SporeSuperSmoke');
-        Spawn(class'tk_FHIWeapons.SporeSuperSparks');
+        Spawn(class'mm_FHIWeapons.SporeSuperSmoke');
+        Spawn(class'mm_FHIWeapons.SporeSuperSparks');
     }
 	if ( Fear != None )
 		Fear.Destroy();
@@ -93,7 +93,7 @@ auto state Flying
                 SplashGlobs(GoopLevel - CoreGoopLevel);
             SetGoopLevel(CoreGoopLevel);
         }
-		spawn(class'tk_FHIWeapons.SporeDecal',,,, rotator(-HitNormal));
+		spawn(class'mm_FHIWeapons.SporeDecal',,,, rotator(-HitNormal));
 
         bCollideWorld = false;
         SetCollisionSize(GoopVolume*10.0, GoopVolume*10.0);
@@ -316,7 +316,7 @@ defaultproperties
      Damage=354.000000
      DamageRadius=512.000000
      MomentumTransfer=840000.000000
-     MyDamageType=Class'tk_FHIWeapons.DamTypeSporeB'
+     MyDamageType=Class'mm_FHIWeapons.DamTypeSporeB'
      LightHue=15
      LightBrightness=250.000000
      LightRadius=2.600000

@@ -3,7 +3,7 @@ class DamTypeSingularityCannon extends WeaponDamageType
 
 defaultproperties
 {
-     WeaponClass=Class'tk_FHIWeapons.SingularityCannon'
+     WeaponClass=Class'mm_FHIWeapons.SingularityCannon'
      DeathString="%o was sucked into %k's Black Hole!"
      FemaleSuicide="%o was sucked into her own Hole!"
      MaleSuicide="%o was sucked into his own Hole!"

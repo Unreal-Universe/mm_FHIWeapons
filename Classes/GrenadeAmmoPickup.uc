@@ -4,9 +4,9 @@ defaultproperties
 {
      AmmoAmount=18
      MaxDesireability=0.620000
-     InventoryType=Class'tk_FHIWeapons.GrenadeAmmo'
+     InventoryType=Class'mm_FHIWeapons.GrenadeAmmo'
      PickupMessage="You picked up some grenades"
-     PickupSound=Sound'tk_FHIWeapons.FHISnd.GrenadeLauncher_PickupAmmo'
+     PickupSound=Sound'mm_FHIWeapons.FHISnd.GrenadeLauncher_PickupAmmo'
      PickupForce="FlakAmmoPickup"
      DrawType=DT_StaticMesh
      StaticMesh=StaticMesh'ONSWeapons-SM.GrenadeLauncherAmmo'

@@ -121,7 +121,7 @@ simulated event RenderOverlays( Canvas Canvas )
 		Canvas.Style = ERenderStyle.STY_Alpha;
 
 		Canvas.SetPos(Canvas.SizeX*0.5-CrosshairX, Canvas.SizeY*0.5-CrosshairY);
-		Canvas.DrawTile(Texture'tk_FHIWeapons.FHIHud.MiniRocket_LockIcon', CrosshairX*2.0, CrosshairY*2.0, 0.0, 0.0, Texture'tk_FHIWeapons.FHIHud.MiniRocket_LockIcon'.USize, Texture'tk_FHIWeapons.FHIHud.MiniRocket_LockIcon'.VSize);
+		Canvas.DrawTile(Texture'mm_FHIWeapons.FHIHud.MiniRocket_LockIcon', CrosshairX*2.0, CrosshairY*2.0, 0.0, 0.0, Texture'mm_FHIWeapons.FHIHud.MiniRocket_LockIcon'.USize, Texture'mm_FHIWeapons.FHIHud.MiniRocket_LockIcon'.VSize);
 	}
 
 	Super.RenderOverlays(Canvas);
@@ -309,7 +309,7 @@ Begin:
 	Sleep(0.02);
 	RotateBarrel();
 	Sleep(0.2);
-	PlayOwnedSound(Sound'tk_FHIWeapons.FHISnd.GrenadeLauncher_PickupAmmo', SLOT_None,,,,,false);
+	PlayOwnedSound(Sound'mm_FHIWeapons.FHISnd.GrenadeLauncher_PickupAmmo', SLOT_None,,,,,false);
 	ClientPlayForceFeedback("RocketLauncherLoad");
 	Sleep(0.06);
 	GotoState('');
@@ -397,8 +397,8 @@ defaultproperties
      CrossHairColor=(R=250,A=255)
      CrosshairX=24.000000
      CrosshairY=24.000000
-     FireModeClass(0)=Class'tk_FHIWeapons.MiniRocketFire'
-     FireModeClass(1)=Class'tk_FHIWeapons.MiniRocketAltFire'
+     FireModeClass(0)=Class'mm_FHIWeapons.MiniRocketFire'
+     FireModeClass(1)=Class'mm_FHIWeapons.MiniRocketAltFire'
      PutDownAnim="PutDown"
      SelectForce="SwitchToRocketLauncher"
      AIRating=0.780000
@@ -410,15 +410,15 @@ defaultproperties
      CustomCrossHairTextureName="Crosshairs.HUD.Crosshair_Circle1"
      InventoryGroup=6
      GroupOffset=10
-     PickupClass=Class'tk_FHIWeapons.MiniRocketLauncherPickup'
+     PickupClass=Class'mm_FHIWeapons.MiniRocketLauncherPickup'
      PlayerViewOffset=(X=-5.000000,Y=8.000000)
      PlayerViewPivot=(Yaw=500,Roll=1000)
      BobDamping=2.990000
-     AttachmentClass=Class'tk_FHIWeapons.MiniRocketAttachment'
-     IconMaterial=Texture'tk_FHIWeapons.FHIHud.HUDIcons'
+     AttachmentClass=Class'mm_FHIWeapons.MiniRocketAttachment'
+     IconMaterial=Texture'mm_FHIWeapons.FHIHud.HUDIcons'
      IconCoords=(X1=46,Y1=184,X2=138,Y2=216)
      ItemName="Mini-Rocket Launcher"
      Mesh=SkeletalMesh'Weapons.Minigun_1st'
-     Skins(0)=Texture'tk_FHIWeapons.FHITex.MiniRocketTex'
+     Skins(0)=Texture'mm_FHIWeapons.FHITex.MiniRocketTex'
      UV2Texture=Shader'XGameShaders.WeaponShaders.WeaponEnvShader'
 }

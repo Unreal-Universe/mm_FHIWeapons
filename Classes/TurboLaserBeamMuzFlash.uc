@@ -26,7 +26,7 @@ defaultproperties
      mSizeRange(1)=0.500000
      mGrowthRate=5.000000
      mAttenKa=0.000000
-     mMeshNodes(0)=StaticMesh'tk_FHIWeapons.FHIMesh.ShockMuzFlash'
-     Skins(0)=FinalBlend'tk_FHIWeapons.FHIMat.TurboLaserMuzFlash_FB'
+     mMeshNodes(0)=StaticMesh'mm_FHIWeapons.FHIMesh.ShockMuzFlash'
+     Skins(0)=FinalBlend'mm_FHIWeapons.FHIMat.TurboLaserMuzFlash_FB'
      Style=STY_Additive
 }

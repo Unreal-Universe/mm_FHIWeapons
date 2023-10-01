@@ -13,7 +13,7 @@ static function GetHitEffects(out class<xEmitter> HitEffects[4], int VictimHealt
 
 defaultproperties
 {
-     WeaponClass=Class'tk_FHIWeapons.FlareLauncher'
+     WeaponClass=Class'mm_FHIWeapons.FlareLauncher'
      DeathString="%o failed to notice %k's flare missile"
      FemaleSuicide="%o munched on her own flare missile"
      MaleSuicide="%o munched on his own flare missile"

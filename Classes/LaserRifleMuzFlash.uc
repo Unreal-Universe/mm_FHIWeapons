@@ -26,8 +26,8 @@ defaultproperties
      mSizeRange(1)=0.500000
      mGrowthRate=5.000000
      mAttenKa=0.000000
-     mMeshNodes(0)=StaticMesh'tk_FHIWeapons.FHIMesh.LaserRifleMuzFlashMesh'
+     mMeshNodes(0)=StaticMesh'mm_FHIWeapons.FHIMesh.LaserRifleMuzFlashMesh'
      DrawScale=0.350000
-     Skins(0)=FinalBlend'tk_FHIWeapons.FHIMat.LaserRifleMuzFlash_FB'
+     Skins(0)=FinalBlend'mm_FHIWeapons.FHIMat.LaserRifleMuzFlash_FB'
      Style=STY_Additive
 }

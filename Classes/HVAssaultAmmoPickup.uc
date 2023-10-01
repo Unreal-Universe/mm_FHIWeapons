@@ -3,7 +3,7 @@ class HVAssaultAmmoPickup extends UTAmmoPickup;
 defaultproperties
 {
      AmmoAmount=6
-     InventoryType=Class'tk_FHIWeapons.HVBombAmmo'
+     InventoryType=Class'mm_FHIWeapons.HVBombAmmo'
      PickupMessage="You got a box of AG Bombs and HV bullets."
      PickupSound=Sound'PickupSounds.AssaultAmmoPickup'
      PickupForce="AssaultAmmoPickup"

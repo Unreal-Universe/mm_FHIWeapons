@@ -18,6 +18,6 @@ defaultproperties
      mColorRange(0)=(B=0,G=234)
      mColorRange(1)=(B=1,G=174)
      Physics=PHYS_Trailer
-     Skins(0)=Texture'tk_FHIWeapons.FHITex.Flare_G'
+     Skins(0)=Texture'mm_FHIWeapons.FHITex.Flare_G'
      Style=STY_Translucent
 }

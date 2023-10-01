@@ -120,10 +120,10 @@ function BlowUp(vector HitLocation)
 
 simulated function Explode(vector HitLocation, vector HitNormal) 
 {
-	PlaySound(Sound'tk_FHIWeapons.FHISnd.Explode_Generic13',,1.0*TransientSoundVolume);
+	PlaySound(Sound'mm_FHIWeapons.FHISnd.Explode_Generic13',,1.0*TransientSoundVolume);
     if ( EffectIsRelevant(Location,false) )
     {
-    	Spawn(class'tk_FHIWeapons.ShotgunExplodeIncendiary',,,HitLocation + HitNormal*16,rotator(HitNormal));	
+    	Spawn(class'mm_FHIWeapons.ShotgunExplodeIncendiary',,,HitLocation + HitNormal*16,rotator(HitNormal));	
 		if ( (ExplosionDecal != None) && (Level.NetMode != NM_DedicatedServer) )
 			Spawn(ExplosionDecal,self,,Location, rotator(-HitNormal));
     }
@@ -140,7 +140,7 @@ defaultproperties
      Damage=65.000000
      DamageRadius=195.000000
      MomentumTransfer=3000.000000
-     MyDamageType=Class'tk_FHIWeapons.DamTypeShotgunIncendiary'
+     MyDamageType=Class'mm_FHIWeapons.DamTypeShotgunIncendiary'
      ExplosionDecal=Class'XEffects.LinkBoltScorch'
      DrawType=DT_StaticMesh
      StaticMesh=StaticMesh'WeaponStaticMesh.FlakChunk'

@@ -17,7 +17,7 @@ defaultproperties
          LifetimeRange=(Min=0.200000,Max=0.200000)
          InitialDelayRange=(Min=0.000001,Max=0.000001)
      End Object
-     Emitters(0)=SpriteEmitter'tk_FHIWeapons.TLComboEmitterNEW.SpriteEmitter29'
+     Emitters(0)=SpriteEmitter'mm_FHIWeapons.TLComboEmitterNEW.SpriteEmitter29'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter10
          UseColorScale=True
@@ -37,11 +37,11 @@ defaultproperties
          SizeScale(0)=(RelativeTime=1.000000,RelativeSize=24.000000)
          StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=0.000000,Max=0.000000),Z=(Min=0.000000,Max=0.000000))
          InitialParticlesPerSecond=1000.000000
-         Texture=Texture'tk_FHIWeapons.FHITex.ExplodeRing_C'
+         Texture=Texture'mm_FHIWeapons.FHITex.ExplodeRing_C'
          LifetimeRange=(Min=1.500000,Max=1.500000)
          InitialDelayRange=(Min=0.150000,Max=0.150000)
      End Object
-     Emitters(1)=SpriteEmitter'tk_FHIWeapons.TLComboEmitterNEW.SpriteEmitter10'
+     Emitters(1)=SpriteEmitter'mm_FHIWeapons.TLComboEmitterNEW.SpriteEmitter10'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter16
          UseColorScale=True
@@ -64,7 +64,7 @@ defaultproperties
          Texture=Texture'AW-2004Particles.Energy.SmoothRing'
          LifetimeRange=(Min=1.500000,Max=1.500000)
      End Object
-     Emitters(2)=SpriteEmitter'tk_FHIWeapons.TLComboEmitterNEW.SpriteEmitter16'
+     Emitters(2)=SpriteEmitter'mm_FHIWeapons.TLComboEmitterNEW.SpriteEmitter16'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter21
          UseColorScale=True
@@ -92,7 +92,7 @@ defaultproperties
          StartVelocityRadialRange=(Min=120.000000,Max=120.000000)
          GetVelocityDirectionFrom=PTVD_AddRadial
      End Object
-     Emitters(3)=SpriteEmitter'tk_FHIWeapons.TLComboEmitterNEW.SpriteEmitter21'
+     Emitters(3)=SpriteEmitter'mm_FHIWeapons.TLComboEmitterNEW.SpriteEmitter21'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter22
          UseColorScale=True
@@ -117,7 +117,7 @@ defaultproperties
          Texture=Texture'AW-2004Particles.Weapons.PlasmaStar2'
          LifetimeRange=(Min=2.500000,Max=2.500000)
      End Object
-     Emitters(4)=SpriteEmitter'tk_FHIWeapons.TLComboEmitterNEW.SpriteEmitter22'
+     Emitters(4)=SpriteEmitter'mm_FHIWeapons.TLComboEmitterNEW.SpriteEmitter22'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter23
          UseDirectionAs=PTDU_Right
@@ -138,7 +138,7 @@ defaultproperties
          StartVelocityRadialRange=(Min=-350.000000,Max=-350.000000)
          GetVelocityDirectionFrom=PTVD_AddRadial
      End Object
-     Emitters(5)=SpriteEmitter'tk_FHIWeapons.TLComboEmitterNEW.SpriteEmitter23'
+     Emitters(5)=SpriteEmitter'mm_FHIWeapons.TLComboEmitterNEW.SpriteEmitter23'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter24
          UseColorScale=True
@@ -162,7 +162,7 @@ defaultproperties
          LifetimeRange=(Min=1.250000,Max=1.250000)
          InitialDelayRange=(Min=0.200000,Max=0.200000)
      End Object
-     Emitters(6)=SpriteEmitter'tk_FHIWeapons.TLComboEmitterNEW.SpriteEmitter24'
+     Emitters(6)=SpriteEmitter'mm_FHIWeapons.TLComboEmitterNEW.SpriteEmitter24'
 
      AutoDestroy=True
      bNoDelete=False

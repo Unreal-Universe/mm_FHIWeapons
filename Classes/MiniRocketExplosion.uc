@@ -54,7 +54,7 @@ defaultproperties
          SecondsBeforeInactive=0.000000
          LifetimeRange=(Min=0.400000,Max=0.600000)
      End Object
-     Emitters(0)=SpriteEmitter'tk_FHIWeapons.MiniRocketExplosion.SpriteEmitter1'
+     Emitters(0)=SpriteEmitter'mm_FHIWeapons.MiniRocketExplosion.SpriteEmitter1'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter0
          UseColorScale=True
@@ -95,7 +95,7 @@ defaultproperties
          VelocityScale(1)=(RelativeTime=0.300000,RelativeVelocity=(X=0.100000,Y=0.100000,Z=0.100000))
          VelocityScale(2)=(RelativeTime=1.000000)
      End Object
-     Emitters(1)=SpriteEmitter'tk_FHIWeapons.MiniRocketExplosion.SpriteEmitter0'
+     Emitters(1)=SpriteEmitter'mm_FHIWeapons.MiniRocketExplosion.SpriteEmitter0'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter2
          FadeOut=True
@@ -118,7 +118,7 @@ defaultproperties
          SecondsBeforeInactive=0.000000
          LifetimeRange=(Min=0.300000,Max=0.300000)
      End Object
-     Emitters(2)=SpriteEmitter'tk_FHIWeapons.MiniRocketExplosion.SpriteEmitter2'
+     Emitters(2)=SpriteEmitter'mm_FHIWeapons.MiniRocketExplosion.SpriteEmitter2'
 
      AutoDestroy=True
      LightType=LT_FadeOut

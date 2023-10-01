@@ -21,6 +21,6 @@ defaultproperties
      mGrowthRate=-15.000000
      bHighDetail=True
      Physics=PHYS_Trailer
-     Skins(0)=Texture'tk_FHIWeapons.FHITex.Flare_H'
+     Skins(0)=Texture'mm_FHIWeapons.FHITex.Flare_H'
      Style=STY_Translucent
 }

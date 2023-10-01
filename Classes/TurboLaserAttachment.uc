@@ -55,7 +55,7 @@ simulated event ThirdPersonEffects()
 
 defaultproperties
 {
-     TLMuzFlashClass=Class'tk_FHIWeapons.TurboProjMuzFlash3rd'
+     TLMuzFlashClass=Class'mm_FHIWeapons.TurboProjMuzFlash3rd'
      bRapidFire=True
      bAltRapidFire=True
      LightType=LT_Steady
@@ -69,5 +69,5 @@ defaultproperties
      RelativeLocation=(X=-3.000000,Y=-5.000000,Z=-10.000000)
      RelativeRotation=(Pitch=32768)
      Skins(0)=Texture'UT2004Weapons.NewWeaps.ShockRifleTex0'
-     Skins(1)=FinalBlend'tk_FHIWeapons.FHIMat.TurboLaserAmmoFB'
+     Skins(1)=FinalBlend'mm_FHIWeapons.FHIMat.TurboLaserAmmoFB'
 }

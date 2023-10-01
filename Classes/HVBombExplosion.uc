@@ -28,7 +28,7 @@ defaultproperties
          SecondsBeforeInactive=0.000000
          LifetimeRange=(Min=0.300000,Max=0.300000)
      End Object
-     Emitters(0)=SpriteEmitter'tk_FHIWeapons.HVBombExplosion.SpriteEmitter1'
+     Emitters(0)=SpriteEmitter'mm_FHIWeapons.HVBombExplosion.SpriteEmitter1'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter2
          UseColorScale=True
@@ -58,10 +58,10 @@ defaultproperties
          SecondsBeforeInactive=0.000000
          LifetimeRange=(Min=0.700000,Max=0.700000)
      End Object
-     Emitters(1)=SpriteEmitter'tk_FHIWeapons.HVBombExplosion.SpriteEmitter2'
+     Emitters(1)=SpriteEmitter'mm_FHIWeapons.HVBombExplosion.SpriteEmitter2'
 
      Begin Object Class=MeshEmitter Name=MeshEmitter0
-         StaticMesh=StaticMesh'tk_FHIWeapons.FHIMesh.ExplodeRingB'
+         StaticMesh=StaticMesh'mm_FHIWeapons.FHIMesh.ExplodeRingB'
          UseParticleColor=True
          UseColorScale=True
          FadeOut=True
@@ -89,10 +89,10 @@ defaultproperties
          LifetimeRange=(Min=1.100000,Max=1.100000)
          InitialDelayRange=(Min=0.100000,Max=0.100000)
      End Object
-     Emitters(2)=MeshEmitter'tk_FHIWeapons.HVBombExplosion.MeshEmitter0'
+     Emitters(2)=MeshEmitter'mm_FHIWeapons.HVBombExplosion.MeshEmitter0'
 
      Begin Object Class=MeshEmitter Name=MeshEmitter1
-         StaticMesh=StaticMesh'tk_FHIWeapons.FHIMesh.ExplodeRingC'
+         StaticMesh=StaticMesh'mm_FHIWeapons.FHIMesh.ExplodeRingC'
          UseParticleColor=True
          UseColorScale=True
          FadeOut=True
@@ -120,7 +120,7 @@ defaultproperties
          LifetimeRange=(Min=1.100000,Max=1.100000)
          InitialDelayRange=(Min=0.100000,Max=0.100000)
      End Object
-     Emitters(3)=MeshEmitter'tk_FHIWeapons.HVBombExplosion.MeshEmitter1'
+     Emitters(3)=MeshEmitter'mm_FHIWeapons.HVBombExplosion.MeshEmitter1'
 
      AutoDestroy=True
      bNoDelete=False

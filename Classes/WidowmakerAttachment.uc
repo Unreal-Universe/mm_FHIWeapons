@@ -66,8 +66,8 @@ simulated event ThirdPersonEffects()
 
 defaultproperties
 {
-     mMuzFlashClass=Class'tk_FHIWeapons.WidowmakerMuzFlash'
-     mShellCaseEmitterClass=Class'tk_FHIWeapons.WidowmakerShellSpewer'
+     mMuzFlashClass=Class'mm_FHIWeapons.WidowmakerMuzFlash'
+     mShellCaseEmitterClass=Class'mm_FHIWeapons.WidowmakerShellSpewer'
      LightType=LT_Steady
      LightEffect=LE_NonIncidence
      LightHue=165
@@ -75,6 +75,6 @@ defaultproperties
      LightBrightness=75.000000
      LightRadius=4.000000
      LightPeriod=3
-     Mesh=SkeletalMesh'tk_FHIWeapons.FHIAnim.Widowmaker_3rd'
+     Mesh=SkeletalMesh'mm_FHIWeapons.FHIAnim.Widowmaker_3rd'
      DrawScale=0.550000
 }

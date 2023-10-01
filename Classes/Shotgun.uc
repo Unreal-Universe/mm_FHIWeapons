@@ -54,15 +54,15 @@ function float SuggestDefenseStyle()
 
 defaultproperties
 {
-     FireModeClass(0)=Class'tk_FHIWeapons.ShotgunAltFire'
-     FireModeClass(1)=Class'tk_FHIWeapons.ShotgunAltFireNew'
+     FireModeClass(0)=Class'mm_FHIWeapons.ShotgunAltFire'
+     FireModeClass(1)=Class'mm_FHIWeapons.ShotgunAltFireNew'
      SelectAnim="Pickup"
      PutDownAnim="PutDown"
      IdleAnimRate=0.850000
      RunAnimRate=1.150000
      SelectAnimRate=0.500000
      PutDownAnimRate=0.750000
-     SelectSound=Sound'tk_FHIWeapons.FHISnd.Shotgun_Select'
+     SelectSound=Sound'mm_FHIWeapons.FHISnd.Shotgun_Select'
      AIRating=0.750000
      CurrentRating=0.750000
      Description="The standard issue Combat Shotgun has been in service in one form or another for more than 150 years, due to its dependability and destructive potential. The latest variants have been modified to carry deadly incendiary shells that explode into flames a short time after being fired."
@@ -75,11 +75,11 @@ defaultproperties
      CenteredYaw=-200
      InventoryGroup=3
      GroupOffset=20
-     PickupClass=Class'tk_FHIWeapons.ShotgunPickup'
+     PickupClass=Class'mm_FHIWeapons.ShotgunPickup'
      PlayerViewOffset=(X=9.000000,Y=1.250000,Z=-2.750000)
      BobDamping=2.000000
-     AttachmentClass=Class'tk_FHIWeapons.ShotgunAttachment'
-     IconMaterial=Texture'tk_FHIWeapons.FHIHud.HUDIcons'
+     AttachmentClass=Class'mm_FHIWeapons.ShotgunAttachment'
+     IconMaterial=Texture'mm_FHIWeapons.FHIHud.HUDIcons'
      IconCoords=(X1=39,Y1=36,X2=131,Y2=74)
      ItemName="Shotgun"
      LightType=LT_Steady
@@ -88,6 +88,6 @@ defaultproperties
      LightSaturation=150
      LightBrightness=255.000000
      LightRadius=4.000000
-     Mesh=SkeletalMesh'tk_FHIWeapons.FHIAnim.CombatShotgun_1st'
+     Mesh=SkeletalMesh'mm_FHIWeapons.FHIAnim.CombatShotgun_1st'
      DrawScale=0.280000
 }

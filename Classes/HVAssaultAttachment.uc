@@ -225,11 +225,11 @@ simulated event ThirdPersonEffects()
 
 defaultproperties
 {
-     mTracerClass=Class'tk_FHIWeapons.HVAssaultTracer'
+     mTracerClass=Class'mm_FHIWeapons.HVAssaultTracer'
      mTracerIntervalPrimary=0.070000
      mTracerPullback=50.000000
      mTracerSpeed=17000.000000
-     mMuzFlashClass=Class'tk_FHIWeapons.HVAssaultMuzFlash'
+     mMuzFlashClass=Class'mm_FHIWeapons.HVAssaultMuzFlash'
      bRapidFire=True
      LightType=LT_Pulse
      LightEffect=LE_NonIncidence

@@ -33,8 +33,8 @@ simulated function PostNetBeginPlay()
 
 defaultproperties
 {
-     ExplosionTextures(0)=Texture'tk_FHIWeapons.FHITex.FlareExplode_A'
-     ExplosionTextures(1)=Texture'tk_FHIWeapons.FHITex.FlareExplode_B'
+     ExplosionTextures(0)=Texture'mm_FHIWeapons.FHITex.FlareExplode_A'
+     ExplosionTextures(1)=Texture'mm_FHIWeapons.FHITex.FlareExplode_B'
      Begin Object Class=SpriteEmitter Name=SpriteEmitter8
          UseColorScale=True
          FadeOut=True
@@ -50,10 +50,10 @@ defaultproperties
          StartSizeRange=(X=(Min=400.000000,Max=400.000000))
          InitialParticlesPerSecond=10000.000000
          DrawStyle=PTDS_Brighten
-         Texture=Texture'tk_FHIWeapons.FHITex.Flare_D'
+         Texture=Texture'mm_FHIWeapons.FHITex.Flare_D'
          LifetimeRange=(Min=0.850000,Max=0.850000)
      End Object
-     Emitters(0)=SpriteEmitter'tk_FHIWeapons.FlareExplosionEmitter.SpriteEmitter8'
+     Emitters(0)=SpriteEmitter'mm_FHIWeapons.FlareExplosionEmitter.SpriteEmitter8'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter3
          UseColorScale=True
@@ -78,7 +78,7 @@ defaultproperties
          TextureVSubdivisions=4
          LifetimeRange=(Min=1.000000,Max=1.000000)
      End Object
-     Emitters(1)=SpriteEmitter'tk_FHIWeapons.FlareExplosionEmitter.SpriteEmitter3'
+     Emitters(1)=SpriteEmitter'mm_FHIWeapons.FlareExplosionEmitter.SpriteEmitter3'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter0
          RespawnDeadParticles=False
@@ -92,13 +92,13 @@ defaultproperties
          StartSpinRange=(X=(Max=1.000000))
          StartSizeRange=(X=(Min=70.000000,Max=90.000000),Y=(Min=70.000000,Max=90.000000),Z=(Min=70.000000,Max=90.000000))
          InitialParticlesPerSecond=10.000000
-         Texture=Texture'tk_FHIWeapons.FHITex.FlareExplode_A'
+         Texture=Texture'mm_FHIWeapons.FHITex.FlareExplode_A'
          TextureUSubdivisions=4
          TextureVSubdivisions=4
          SecondsBeforeInactive=0.000000
          LifetimeRange=(Min=0.400000,Max=0.600000)
      End Object
-     Emitters(2)=SpriteEmitter'tk_FHIWeapons.FlareExplosionEmitter.SpriteEmitter0'
+     Emitters(2)=SpriteEmitter'mm_FHIWeapons.FlareExplosionEmitter.SpriteEmitter0'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter6
          UseDirectionAs=PTDU_Up
@@ -119,7 +119,7 @@ defaultproperties
          StartVelocityRadialRange=(Min=-100.000000,Max=-500.000000)
          GetVelocityDirectionFrom=PTVD_AddRadial
      End Object
-     Emitters(3)=SpriteEmitter'tk_FHIWeapons.FlareExplosionEmitter.SpriteEmitter6'
+     Emitters(3)=SpriteEmitter'mm_FHIWeapons.FlareExplosionEmitter.SpriteEmitter6'
 
      AutoDestroy=True
      LightType=LT_FadeOut

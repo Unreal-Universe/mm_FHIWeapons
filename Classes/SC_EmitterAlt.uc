@@ -22,7 +22,7 @@ defaultproperties
          Texture=Texture'XEffects.Skins.ExplosionFlashTex'
          LifetimeRange=(Min=0.500000,Max=0.500000)
      End Object
-     Emitters(0)=SpriteEmitter'tk_FHIWeapons.SC_EmitterAlt.BlackHole'
+     Emitters(0)=SpriteEmitter'mm_FHIWeapons.SC_EmitterAlt.BlackHole'
 
      Begin Object Class=SpriteEmitter Name=Particles
          UseDirectionAs=PTDU_Up
@@ -51,7 +51,7 @@ defaultproperties
          StartVelocityRadialRange=(Min=-700.000000,Max=-700.000000)
          GetVelocityDirectionFrom=PTVD_AddRadial
      End Object
-     Emitters(1)=SpriteEmitter'tk_FHIWeapons.SC_EmitterAlt.Particles'
+     Emitters(1)=SpriteEmitter'mm_FHIWeapons.SC_EmitterAlt.Particles'
 
      bNoDelete=False
 }

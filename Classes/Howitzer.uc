@@ -91,11 +91,11 @@ function float SuggestDefenseStyle()
 
 defaultproperties
 {
-     FireModeClass(0)=Class'tk_FHIWeapons.HowitzerFire'
-     FireModeClass(1)=Class'tk_FHIWeapons.HowitzerAirBurst'
+     FireModeClass(0)=Class'mm_FHIWeapons.HowitzerFire'
+     FireModeClass(1)=Class'mm_FHIWeapons.HowitzerAirBurst'
      SelectAnim="Pickup"
      PutDownAnim="PutDown"
-     SelectSound=Sound'tk_FHIWeapons.FHISnd.GrenadeLauncher_Select'
+     SelectSound=Sound'mm_FHIWeapons.FHISnd.GrenadeLauncher_Select'
      SelectForce="SwitchToFlakCannon"
      AIRating=0.750000
      CurrentRating=0.750000
@@ -112,11 +112,11 @@ defaultproperties
      CustomCrossHairColor=(B=0,G=128)
      CustomCrossHairTextureName="Crosshairs.HUD.Crosshair_Triad3"
      InventoryGroup=7
-     PickupClass=Class'tk_FHIWeapons.HowitzerPickup'
+     PickupClass=Class'mm_FHIWeapons.HowitzerPickup'
      PlayerViewOffset=(X=6.000000,Y=2.000000,Z=-2.500000)
      BobDamping=2.000000
-     AttachmentClass=Class'tk_FHIWeapons.HowitzerAttachment'
-     IconMaterial=Texture'tk_FHIWeapons.FHIHud.HUDIcons'
+     AttachmentClass=Class'mm_FHIWeapons.HowitzerAttachment'
+     IconMaterial=Texture'mm_FHIWeapons.FHIHud.HUDIcons'
      IconCoords=(X1=44,Y1=242,X2=134,Y2=277)
      ItemName="Howitzer"
      LightType=LT_Steady
@@ -125,6 +125,6 @@ defaultproperties
      LightSaturation=150
      LightBrightness=255.000000
      LightRadius=4.000000
-     Mesh=SkeletalMesh'tk_FHIWeapons.FHIAnim.Howitzer_1st'
+     Mesh=SkeletalMesh'mm_FHIWeapons.FHIAnim.Howitzer_1st'
      DrawScale=0.150000
 }

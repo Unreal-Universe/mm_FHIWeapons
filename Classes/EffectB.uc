@@ -33,12 +33,12 @@ defaultproperties
          SizeScale(1)=(RelativeTime=1.000000,RelativeSize=2.000000)
          StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=30.000000,Max=30.000000),Z=(Min=30.000000,Max=30.000000))
          DrawStyle=PTDS_AlphaBlend
-         Texture=Texture'tk_FHIWeapons.FHITex.Sing_A'
+         Texture=Texture'mm_FHIWeapons.FHITex.Sing_A'
          LifetimeRange=(Min=1.200000,Max=1.200000)
          WarmupTicksPerSecond=20.000000
          RelativeWarmupTime=1.000000
      End Object
-     Emitters(0)=SpriteEmitter'tk_FHIWeapons.EffectB.SpriteEmitter4'
+     Emitters(0)=SpriteEmitter'mm_FHIWeapons.EffectB.SpriteEmitter4'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter5
          FadeOut=True
@@ -56,12 +56,12 @@ defaultproperties
          StartSizeRange=(X=(Min=20.000000,Max=20.000000),Y=(Min=30.000000,Max=30.000000),Z=(Min=30.000000,Max=30.000000))
          InitialParticlesPerSecond=2.000000
          DrawStyle=PTDS_AlphaBlend
-         Texture=Texture'tk_FHIWeapons.FHITex.Sing_B'
+         Texture=Texture'mm_FHIWeapons.FHITex.Sing_B'
          LifetimeRange=(Min=0.400000,Max=0.400000)
          WarmupTicksPerSecond=20.000000
          RelativeWarmupTime=1.000000
      End Object
-     Emitters(1)=SpriteEmitter'tk_FHIWeapons.EffectB.SpriteEmitter5'
+     Emitters(1)=SpriteEmitter'mm_FHIWeapons.EffectB.SpriteEmitter5'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter6
          UseDirectionAs=PTDU_Right
@@ -78,7 +78,7 @@ defaultproperties
          SphereRadiusRange=(Min=50.000000,Max=50.000000)
          StartSizeRange=(X=(Min=6.000000,Max=6.000000),Y=(Min=1.500000,Max=1.500000))
          DrawStyle=PTDS_AlphaBlend
-         Texture=Texture'tk_FHIWeapons.FHITex.Sing_A'
+         Texture=Texture'mm_FHIWeapons.FHITex.Sing_A'
          LifetimeRange=(Min=0.500000,Max=0.500000)
          StartVelocityRadialRange=(Min=-50.000000,Max=-50.000000)
          GetVelocityDirectionFrom=PTVD_AddRadial
@@ -86,7 +86,7 @@ defaultproperties
          WarmupTicksPerSecond=50.000000
          RelativeWarmupTime=1.000000
      End Object
-     Emitters(2)=SpriteEmitter'tk_FHIWeapons.EffectB.SpriteEmitter6'
+     Emitters(2)=SpriteEmitter'mm_FHIWeapons.EffectB.SpriteEmitter6'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter7
          UseColorScale=True
@@ -105,7 +105,7 @@ defaultproperties
          Texture=Texture'EpicParticles.Flares.Sharpstreaks2'
          LifetimeRange=(Min=1.000000,Max=1.000000)
      End Object
-     Emitters(3)=SpriteEmitter'tk_FHIWeapons.EffectB.SpriteEmitter7'
+     Emitters(3)=SpriteEmitter'mm_FHIWeapons.EffectB.SpriteEmitter7'
 
      bNoDelete=False
 }

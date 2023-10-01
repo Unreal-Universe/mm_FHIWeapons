@@ -25,7 +25,7 @@ defaultproperties
          WarmupTicksPerSecond=1.000000
          RelativeWarmupTime=2.000000
      End Object
-     Emitters(0)=SpriteEmitter'tk_FHIWeapons.RailgunProjSparksB.SpriteEmitter36'
+     Emitters(0)=SpriteEmitter'mm_FHIWeapons.RailgunProjSparksB.SpriteEmitter36'
 
      bNoDelete=False
      Physics=PHYS_Trailer

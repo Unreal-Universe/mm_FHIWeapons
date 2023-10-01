@@ -30,7 +30,7 @@ defaultproperties
      RemoteRole=ROLE_SimulatedProxy
      NetPriority=3.000000
      LifeSpan=0.300000
-     Texture=Shader'tk_FHIWeapons.FHIShaders.TracerA_Shader'
-     Skins(0)=Shader'tk_FHIWeapons.FHIShaders.TracerA_Shader'
+     Texture=Shader'mm_FHIWeapons.FHIShaders.TracerA_Shader'
+     Skins(0)=Shader'mm_FHIWeapons.FHIShaders.TracerA_Shader'
      Style=STY_Additive
 }

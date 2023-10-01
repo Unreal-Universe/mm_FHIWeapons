@@ -3,7 +3,7 @@ class DamTypeSporeB extends WeaponDamageType
 
 defaultproperties
 {
-     WeaponClass=Class'tk_FHIWeapons.SporeRifle'
+     WeaponClass=Class'mm_FHIWeapons.SporeRifle'
      DeathString="%o inhaled %k's MEGA-SPORE!"
      FemaleSuicide="%o inhaled her own MEGA-SPORE!"
      MaleSuicide="%o inhaled his own MEGA-SPORE!"

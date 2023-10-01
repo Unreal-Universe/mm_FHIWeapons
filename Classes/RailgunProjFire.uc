@@ -16,11 +16,11 @@ defaultproperties
      FireSound=Sound'WeaponSounds.BaseFiringSounds.BPulseRifleAltFire'
      FireForce="ShockRifleAltFire"
      FireRate=0.150000
-     AmmoClass=Class'tk_FHIWeapons.RailgunAmmo'
+     AmmoClass=Class'mm_FHIWeapons.RailgunAmmo'
      AmmoPerFire=1
      ShakeRotMag=(X=60.000000,Y=20.000000)
      ShakeRotRate=(X=1000.000000,Y=1000.000000)
      ShakeRotTime=2.000000
-     ProjectileClass=Class'tk_FHIWeapons.RailgunProjectile'
+     ProjectileClass=Class'mm_FHIWeapons.RailgunProjectile'
      FlashEmitterClass=Class'XEffects.ShockProjMuzFlash'
 }

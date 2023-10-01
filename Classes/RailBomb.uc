@@ -73,7 +73,7 @@ simulated function ProcessTouch(Actor Other, Vector HitLocation)
 
 simulated function SpawnEffects( vector HitLocation, vector HitNormal )
 {
-	PlaySound (Sound'tk_FHIWeapons.FHISnd.Phoenix_AltFire',,3*TransientSoundVolume);
+	PlaySound (Sound'mm_FHIWeapons.FHISnd.Phoenix_AltFire',,3*TransientSoundVolume);
 	if ( EffectIsRelevant(Location,false) )
 	{
 		spawn(class'RailBombAltExplosionNEW',,,HitLocation + HitNormal*16 );
@@ -123,7 +123,7 @@ defaultproperties
      TossZ=10.000000
      Damage=85.000000
      MomentumTransfer=15000.000000
-     MyDamageType=Class'tk_FHIWeapons.DamTypeRailBomb'
+     MyDamageType=Class'mm_FHIWeapons.DamTypeRailBomb'
      LightType=LT_Steady
      LightEffect=LE_QuadraticNonIncidence
      LightHue=210
@@ -131,9 +131,9 @@ defaultproperties
      LightBrightness=255.000000
      LightRadius=4.000000
      DrawType=DT_StaticMesh
-     StaticMesh=StaticMesh'tk_FHIWeapons.FHIMesh.RailAltMesh'
+     StaticMesh=StaticMesh'mm_FHIWeapons.FHIMesh.RailAltMesh'
      bDynamicLight=True
-     AmbientSound=Sound'tk_FHIWeapons.FHISnd.LaserAmbient4'
+     AmbientSound=Sound'mm_FHIWeapons.FHISnd.LaserAmbient4'
      LifeSpan=9.000000
      DrawScale=4.000000
      AmbientGlow=100

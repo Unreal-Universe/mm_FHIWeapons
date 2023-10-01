@@ -24,6 +24,6 @@ defaultproperties
      mNumTileColumns=4
      mNumTileRows=4
      Physics=PHYS_Trailer
-     Skins(0)=Texture'tk_FHIWeapons.FHITex.FlareFlames'
+     Skins(0)=Texture'mm_FHIWeapons.FHITex.FlareFlames'
      Style=STY_Additive
 }

@@ -49,10 +49,10 @@ function float SuggestDefenseStyle()
 
 defaultproperties
 {
-     FireModeClass(0)=Class'tk_FHIWeapons.RailgunProjFire'
-     FireModeClass(1)=Class'tk_FHIWeapons.RailgunAltFire'
+     FireModeClass(0)=Class'mm_FHIWeapons.RailgunProjFire'
+     FireModeClass(1)=Class'mm_FHIWeapons.RailgunAltFire'
      PutDownAnim="PutDown"
-     SelectSound=Sound'tk_FHIWeapons.FHISnd.Generic_Pickup01'
+     SelectSound=Sound'mm_FHIWeapons.FHISnd.Generic_Pickup01'
      SelectForce="SwitchToLinkGun"
      AIRating=0.720000
      CurrentRating=0.690000
@@ -69,11 +69,11 @@ defaultproperties
      CustomCrossHairTextureName="Crosshairs.HUD.Crosshair_Bracket1"
      InventoryGroup=5
      GroupOffset=23
-     PickupClass=Class'tk_FHIWeapons.RailgunPickup'
+     PickupClass=Class'mm_FHIWeapons.RailgunPickup'
      PlayerViewOffset=(X=-5.000000,Y=-3.000000)
      PlayerViewPivot=(Yaw=500)
      BobDamping=3.000000
-     AttachmentClass=Class'tk_FHIWeapons.RailgunAttachment'
+     AttachmentClass=Class'mm_FHIWeapons.RailgunAttachment'
      IconMaterial=Texture'HUDContent.Generic.HUD'
      IconCoords=(X1=169,Y1=78,X2=244,Y2=124)
      ItemName="Particle Gun"
@@ -85,7 +85,7 @@ defaultproperties
      LightRadius=4.000000
      LightPeriod=3
      Mesh=SkeletalMesh'NewWeapons2004.FatLinkGun'
-     Skins(0)=Shader'tk_FHIWeapons.FHIShaders.RailgunShader'
+     Skins(0)=Shader'mm_FHIWeapons.FHIShaders.RailgunShader'
      Skins(1)=Shader'UT2004Weapons.Shaders.PurpleShockShader'
      Skins(2)=Shader'UT2004Weapons.Shaders.LinkGlassShader'
 }

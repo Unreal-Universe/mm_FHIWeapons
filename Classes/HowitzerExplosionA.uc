@@ -54,7 +54,7 @@ defaultproperties
          Texture=Texture'EmitterTextures.Flares.EFlareOY'
          LifetimeRange=(Min=0.650000,Max=0.650000)
      End Object
-     Emitters(0)=SpriteEmitter'tk_FHIWeapons.HowitzerExplosionA.SpriteEmitter8'
+     Emitters(0)=SpriteEmitter'mm_FHIWeapons.HowitzerExplosionA.SpriteEmitter8'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter4
          UseColorScale=True
@@ -79,7 +79,7 @@ defaultproperties
          SecondsBeforeInactive=0.000000
          LifetimeRange=(Min=0.400000,Max=0.600000)
      End Object
-     Emitters(1)=SpriteEmitter'tk_FHIWeapons.HowitzerExplosionA.SpriteEmitter4'
+     Emitters(1)=SpriteEmitter'mm_FHIWeapons.HowitzerExplosionA.SpriteEmitter4'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter5
          UseColorScale=True
@@ -120,7 +120,7 @@ defaultproperties
          VelocityScale(1)=(RelativeTime=0.300000,RelativeVelocity=(X=0.100000,Y=0.100000,Z=0.100000))
          VelocityScale(2)=(RelativeTime=1.000000)
      End Object
-     Emitters(2)=SpriteEmitter'tk_FHIWeapons.HowitzerExplosionA.SpriteEmitter5'
+     Emitters(2)=SpriteEmitter'mm_FHIWeapons.HowitzerExplosionA.SpriteEmitter5'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter7
          UseCollision=True
@@ -146,7 +146,7 @@ defaultproperties
          StartVelocityRadialRange=(Min=-100.000000,Max=-500.000000)
          GetVelocityDirectionFrom=PTVD_AddRadial
      End Object
-     Emitters(3)=SpriteEmitter'tk_FHIWeapons.HowitzerExplosionA.SpriteEmitter7'
+     Emitters(3)=SpriteEmitter'mm_FHIWeapons.HowitzerExplosionA.SpriteEmitter7'
 
      AutoDestroy=True
      LightType=LT_FadeOut
